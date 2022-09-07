@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ottu
+import Foundation
+@_exported import Ottu
+import PassKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+public enum NetworkErrorReason : Swift.Error {
+  case FailureErrorCode(code: Swift.Int, message: Swift.String, userInfo: [Swift.String : Any]?)
+  case InternetNotReachable
+  case UnAuthorizedAccess
+  case Other
+}
+public protocol Check_JB : AnyObject {
+  func sendTheStatusOfJailBreak(value: Swift.Bool)
+}
+public protocol OttuDelegate {
+  func errorCallback(message: Swift.String, response: [Swift.String : Any]?)
+  func cancelCallback(message: Swift.String, response: [Swift.String : Any]?)
+  func successCallback(message: Swift.String, response: [Swift.String : Any]?)
+  func beforeRedirect()
+  func dismissed()
+}
+public class Ottu {
+  public init(_ sessionId: Swift.String, merchantId: Swift.String, apiKey: Swift.String, language: Swift.String = "en", viewController: UIKit.UIViewController, delegate: Ottu.OttuDelegate)
+  @objc deinit
+}

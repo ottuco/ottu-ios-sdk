@@ -1,0 +1,16 @@
+PODS:
+  - Ottu (1.0.0)
+
+DEPENDENCIES:
+  - Ottu (= 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Ottu
+
+SPEC CHECKSUMS:
+  Ottu: 33d3c157956984dec0ea830ec246348ce2ca0e23
+
+PODFILE CHECKSUM: ed609b522cb2e54bcbed07c7445215ba8cdeec76
+
+COCOAPODS: 1.11.2

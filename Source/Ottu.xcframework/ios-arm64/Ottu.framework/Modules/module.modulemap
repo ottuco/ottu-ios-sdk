@@ -1,0 +1,11 @@
+framework module Ottu {
+  umbrella header "Ottu.h"
+
+  export *
+  module * { export * }
+}
+
+module Ottu.Swift {
+    header "Ottu-Swift.h"
+    requires objc
+}
