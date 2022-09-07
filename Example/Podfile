@@ -4,7 +4,7 @@
 target 'Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod 'Ottu', '1.0.0'
+pod 'Ottu', :git => 'https://github.com/ottuco/ottu-ios-sdk.git'
   # Pods for Example
 
 end
