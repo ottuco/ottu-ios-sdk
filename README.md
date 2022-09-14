@@ -8,8 +8,6 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 **Apple Pay**: We provide a seamless integration with Apple Pay.
 
-**SCA-ready**: The SDK automatically performs native 3D Secure authentication if needed to comply with Strong Customer Authentication regulation in Europe.
-
 **Native UI**: We provide native screens and elements to collect payment details.
 
 <p float="left">
