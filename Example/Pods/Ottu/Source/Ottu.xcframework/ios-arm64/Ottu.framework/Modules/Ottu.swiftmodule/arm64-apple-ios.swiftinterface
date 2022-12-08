@@ -25,6 +25,6 @@ public protocol OttuDelegate {
   func dismissed()
 }
 public class Ottu {
-  public init(_ sessionId: Swift.String, merchantId: Swift.String, apiKey: Swift.String, language: Swift.String = "en", viewController: UIKit.UIViewController, delegate: OttuDelegate)
+  public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", viewController: UIKit.UIViewController, delegate: OttuDelegate)
   @objc deinit
 }

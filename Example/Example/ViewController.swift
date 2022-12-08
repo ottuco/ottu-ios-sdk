@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         //TODO: - Set Paramters accordingly
         var params = [String : Any]()
         params["type"] = "e_commerce"
-        params["pg_codes"] = ["ottu_pg_kwd_tkn","knet-test", "mpgs"]
+        params["pg_codes"] = ["knet-test"]//"ottu_pg_kwd_tkn",mpgs
         params["amount"] = amountTF.text ?? ""
         params["currency_code"] = "KWD"
         params["disclosure_url"] = Disclouser_URL
@@ -110,7 +110,7 @@ extension ViewController{
     func getToken(params:[String:Any],headers: [String:String],base_url:String){
         Token.shared.getToken(params: params, headers: headers, base_URL: base_url) { success, sessionId, errorMessage in
             if success{
-                _ = Ottu.init(sessionId ?? "", merchantId: self.merchantIdTf.text ?? "", apiKey: self.apiKeyTF.text ?? "" ,language: self.languageTF.text ?? "", viewController: self, delegate: self)
+                _ = Ottu.init(sessionId ?? "", merchant_id: self.merchantIdTf.text ?? "", apiKey: self.apiKeyTF.text ?? "" ,lang: self.languageTF.text ?? "", viewController: self, delegate: self)
             }else{
                 self.showAlert(title: "Error", message: errorMessage ?? "")
             }

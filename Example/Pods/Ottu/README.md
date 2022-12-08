@@ -8,8 +8,6 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 **Apple Pay**: We provide a seamless integration with Apple Pay.
 
-**SCA-ready**: The SDK automatically performs native 3D Secure authentication if needed to comply with Strong Customer Authentication regulation in Europe.
-
 **Native UI**: We provide native screens and elements to collect payment details.
 
 <p float="left">
@@ -20,7 +18,7 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 #### Recommended usage
 
-If you're selling digital products or services that will be consumed within your app, (e.g. subscriptions, in-game currencies, game levels, access to premium content, or unlocking a full version), you must use Apple's in-app purchase APIs. See the [App Store review guidelines](https://developer.apple.com/app-store/review/guidelines/#payments) for more information. For all other scenarios you can use this SDK to process payments via Stripe.
+If you're selling digital products or services that will be consumed within your app, (e.g. subscriptions, in-game currencies, game levels, access to premium content, or unlocking a full version), you must use Apple's in-app purchase APIs. See the [App Store review guidelines](https://developer.apple.com/app-store/review/guidelines/#payments) for more information.
 
 #### Privacy
 
