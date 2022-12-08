@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lj+y7Iu4XQ47iKI8G45U/reG97I=
+		/aQ/iXjBVR5251o+Nmfelwkgvfw=
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		lj+y7Iu4XQ47iKI8G45U/reG97I=
+		/aQ/iXjBVR5251o+Nmfelwkgvfw=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MRoaCaAaeWwPSYxUDGB9BULDzdk=
+		WEHx8PAWrjIM5AWwlnBV4qwOUlQ=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MRoaCaAaeWwPSYxUDGB9BULDzdk=
+		WEHx8PAWrjIM5AWwlnBV4qwOUlQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PhRIaHILR/4uhryaEy+BkGQNkqInNr44qcn64m3yIWM=
+			BKeoy8UP3INmR9OH2gR+JOG0qvpG/9c7vuWILE2Ytog=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/arm64.swiftdoc</key>
@@ -340,7 +340,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PhRIaHILR/4uhryaEy+BkGQNkqInNr44qcn64m3yIWM=
+			BKeoy8UP3INmR9OH2gR+JOG0qvpG/9c7vuWILE2Ytog=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -361,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mlbJfBzTgXgUZsbvP8cmH2gkHbDo/+zS2CmhTFJGIk=
+			zY4cP1ubCmwLOX4CfuBxMsnZVmydNHIQksoJKgP0xCc=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64.swiftdoc</key>
@@ -382,7 +382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mlbJfBzTgXgUZsbvP8cmH2gkHbDo/+zS2CmhTFJGIk=
+			zY4cP1ubCmwLOX4CfuBxMsnZVmydNHIQksoJKgP0xCc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
