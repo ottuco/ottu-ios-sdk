@@ -74,6 +74,10 @@ class ViewController: UIViewController,OttuDelegate {
     var responseDict : [String:Any]?
     var message = ""
     
+    //apikey: You will get the apikey from Ottu
+    //merchant_id: You will get the merchant id from Ottu
+    //sessionid: You will get the sessionid from the public API
+    //lang: This is for language. "en" for English and "ar" for Arabic
     override func viewDidLoad() {
         super.viewDidLoad()
         //Intiate the SDK accordingly after getting session id from the public API documentation.
