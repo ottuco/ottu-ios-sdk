@@ -31,7 +31,7 @@ The Ottu requires Xcode 13.0 or later and is compatible with apps targeting iOS 
 ## Getting started
 
 To initialize the SDK you need to create session token. 
-You can create session token with our public API [Click here](https://app.apiary.io/iossdk2/editor) to see more detail about our public API.
+You can create session token with our public API [Click here](https://docs-ottu.gitbook.io/o/developer/rest-api/authentication#public-key) to see more detail about our public API.
     
 Installation
 ==========================
@@ -74,12 +74,23 @@ class ViewController: UIViewController,OttuDelegate {
     var responseDict : [String:Any]?
     var message = ""
     
+    //apikey: You will get the apikey from Ottu
+    //merchant_id: You will get the merchant id from Ottu
+    //sessionid: You will get the sessionid from the public API
+    //lang: This is for language. "en" for English and "ar" for Arabic
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sessionId = "ENTER_YOUR_SESSION_ID"
-        _ = Ottu.init(sessionId, merchantId: "MERCHANT_ID", apiKey: "API_KEY" ,language: "ENTER_LANGUAGE_ID_en_or_ar", viewController: self, delegate: self)
+        //Intiate the SDK accordingly after getting session id from the public API documentation.
+        //session_id - It is generated when payment was created. See API documentation
+        //merchant_id - Merchant domain. See API documentation.
+        //apiKey - API Public key should be used. See API documentation.
+        //lang - You can use it to change the language. We support two languages english and arabic. You can use "en" for english and "ar" for arabic.        
+        let session_id = "ENTER_YOUR_SESSION_ID"
+        _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar", viewController: self, delegate: self)
     }
     
+    //The error callback is invoked when problems occur during a payment.
+    //Reason will be defined in the response attribute. 
     func errorCallback(message: String, response: [String : Any]?) {
         responseDict = response
         self.message = "Error"
@@ -87,22 +98,28 @@ class ViewController: UIViewController,OttuDelegate {
 
     }
     
+    //Called when a customer cancels the payment.
     func cancelCallback(message: String, response: [String : Any]?) {
         responseDict = response
         self.message = "Cancel"
         self.dismissed()
     }
     
+    //Called when the payment completed successfully.
     func successCallback(message: String, response: [String : Any]?) {
         responseDict = response
         self.message = "Success"
         self.dismissed()
     }
     
+    //It is a helper function that has to return a promise object, to create the redirect_url.
+    //This allows the merchant to redirect the user to the cart page and wait for a while before creating the redirect_url. 
+    //In case the customer changes items in the cart, the due amount will be updated accordingly, then the merchant will wait for a while until the customer does not return, then the function returns a promise object, the cart will be frozen and marked as submitted, and the redirect_url will be generated.
     func beforeRedirect() {
         
     }
     
+    //After successCallback or cancelCallback or errorCallback you can show alert to the user accordingly.
     func dismissed() {
         DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             let alert = UIAlertController(title: self.message.capitalized, message: "\(String(describing: self.responseDict))", preferredStyle: .alert)
