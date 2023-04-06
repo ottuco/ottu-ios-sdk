@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ottu
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ottu
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import Ottu
 import PassKit
@@ -8,6 +9,7 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
 public enum NetworkErrorReason : Swift.Error {
   case FailureErrorCode(code: Swift.Int, message: Swift.String, userInfo: [Swift.String : Any]?)
   case InternetNotReachable
@@ -25,6 +27,6 @@ public protocol OttuDelegate {
   func dismissed()
 }
 public class Ottu {
-  public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", viewController: UIKit.UIViewController, delegate: OttuDelegate)
+  public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", formsOfPayment: [Swift.String]? = nil, viewController: UIKit.UIViewController, delegate: any OttuDelegate)
   @objc deinit
 }

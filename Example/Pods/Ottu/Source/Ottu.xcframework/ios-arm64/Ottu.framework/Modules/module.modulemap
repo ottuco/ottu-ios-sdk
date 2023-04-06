@@ -6,6 +6,6 @@ framework module Ottu {
 }
 
 module Ottu.Swift {
-    header "Ottu-Swift.h"
-    requires objc
+  header "Ottu-Swift.h"
+  requires objc
 }
