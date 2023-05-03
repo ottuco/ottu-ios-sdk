@@ -783,6 +783,23 @@
       },
       {
         "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Ottu"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Ottu",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9190,6 +9207,594 @@
       "value": "0.9"
     },
     {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
+      "length": 51,
+      "value": "\"Apple pay not configure properly on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 51,
+      "value": "\"Apple pay not configure properly on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1317,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 42,
+      "value": "\"Apple pay not available on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1470,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1480,
+      "length": 42,
+      "value": "\"Apple pay not available on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2288,
+      "length": 66,
+      "value": "\"Your device is jailbreak. Please try to pay with another device.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2502,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2815,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2882,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2969,
+      "length": 31,
+      "value": "\"Merchant id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3024,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3034,
+      "length": 31,
+      "value": "\"Merchant id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3261,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3348,
+      "length": 27,
+      "value": "\"Api key can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3399,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3409,
+      "length": 27,
+      "value": "\"Api key can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3567,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3721,
+      "length": 30,
+      "value": "\"Session id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3775,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 30,
+      "value": "\"Session id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3953,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4020,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4107,
+      "length": 28,
+      "value": "\"Language can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4159,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4169,
+      "length": 28,
+      "value": "\"Language can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4292,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4341,
+      "length": 4,
+      "value": "\"ar\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4439,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4526,
+      "length": 30,
+      "value": "\"Language should be en or ar.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4580,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4590,
+      "length": 30,
+      "value": "\"Language should be en or ar.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4986,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5092,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5217,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5334,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5977,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6083,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6208,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6326,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7230,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7317,
+      "length": 107,
+      "value": "\"Something went wrong.\nPlease try again after sometime or check your device compatibility with apple pay.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7575,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8179,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8821,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8998,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9085,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9399,
+      "length": 8,
+      "value": "\"failed\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9797,
+      "length": 10,
+      "value": "\"canceled\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9996,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10161,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10261,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10551,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10809,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11363,
+      "length": 25,
+      "value": "\"Payment Data in invalid\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11550,
+      "length": 13,
+      "value": "\"paymentData\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11646,
+      "length": 13,
+      "value": "\"displayName\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11725,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11812,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11888,
+      "length": 15,
+      "value": "\"paymentMethod\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11945,
+      "length": 23,
+      "value": "\"transactionIdentifier\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12059,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12143,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12420,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12507,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12595,
+      "length": 23,
+      "value": "\"Transaction cencelled\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplePayScreen\/ApplePayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12744,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/PaymentScreen\/PaymentVC.swift",
       "kind": "StringLiteral",
       "offset": 2136,
@@ -12236,99 +12841,120 @@
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "\"ApplePayVC\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 10,
+      "value": "\"applePay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "BooleanLiteral",
-      "offset": 746,
+      "offset": 757,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "BooleanLiteral",
-      "offset": 838,
+      "offset": 1155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 1304,
       "length": 21,
       "value": "\"SF-Pro-Text-Regular\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1333,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1389,
       "length": 20,
       "value": "\"SF-Pro-Text-Medium\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1417,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1156,
+      "offset": 1473,
       "length": 18,
       "value": "\"SF-Pro-Text-Bold\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1499,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 1555,
       "length": 22,
       "value": "\"SF-Pro-Text-Semibold\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1585,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1411,
+      "offset": 1728,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1566,
+      "offset": 1883,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1736,
+      "offset": 2053,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "BooleanLiteral",
-      "offset": 1828,
+      "offset": 2145,
       "length": 4,
       "value": "true"
     },
