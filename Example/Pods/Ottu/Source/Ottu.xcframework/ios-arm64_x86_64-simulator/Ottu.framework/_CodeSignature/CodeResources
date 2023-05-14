@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/Ottu-Swift.h</key>
 		<data>
-		WhwHSG9gAXbwLoCOhV0bwHnxA2k=
+		4ai9j0VU1oQsJ44Hpbd2nw/5aos=
 		</data>
 		<key>Headers/Ottu.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		epZK2f73MzMC6kxLokENgf/ByWQ=
+		oJbrXCOfZugtvEjgQBG8Y/Ghf+U=
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Xg3zwB8KpDLbApQYPnVHNtIm9bw=
+		BNya3kIRDaqUDJiT4sJ5ljH8BVg=
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xg3zwB8KpDLbApQYPnVHNtIm9bw=
+		BNya3kIRDaqUDJiT4sJ5ljH8BVg=
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FTyRhLqyjbp1ZaU0BBbGzyvnlfE=
+		fyk7zbx0AAM75BPmebo2XG7jaiA=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		epZK2f73MzMC6kxLokENgf/ByWQ=
+		oJbrXCOfZugtvEjgQBG8Y/Ghf+U=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		88ldl6PlBObHP99xxwnK5gPrLw8=
+		NN9Muan0k/dbyJU/rp4SpcewmmQ=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		88ldl6PlBObHP99xxwnK5gPrLw8=
+		NN9Muan0k/dbyJU/rp4SpcewmmQ=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WBgKTF+avXAs0aDD85qxhyX4x1U=
+		31gfqTIDR7Jl9tPr4SBuU5czfuo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,6 +123,10 @@
 		<key>amex.png</key>
 		<data>
 		UA8vKk8XNaXdF8Re34s9YDWMLO8=
+		</data>
+		<key>apple copy.png</key>
+		<data>
+		9Nxu/beiY5kSky+DezzX3sMzXf4=
 		</data>
 		<key>apple.png</key>
 		<data>
@@ -280,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X7TxU5BmaZ0dYLVoYwsDtIU7HDKUHftkcDf+BDmBIXI=
+			b1K7GnxPiAnnyMwT+sTmPi4fZln4Q7/X/dqAkOA+YWM=
 			</data>
 		</dict>
 		<key>Headers/Ottu.h</key>
@@ -308,14 +312,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sc4PSULaz5K0pdOcX7XOYm0FTDWms74CEGlHPx6ZAI4=
+			1Enz4RYiEh0mSNxh2zTO9U7o1ktRI2e0TgVG7j5wwpU=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIkzpmr0dIJYZTgVAWZwx8OjKv8No0Two2W5zcuBW2Q=
+			tSJvN0QDfhdwvAFigaGFEHca6UUKdVW2h7DvP1Ap0bQ=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -329,28 +333,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIkzpmr0dIJYZTgVAWZwx8OjKv8No0Two2W5zcuBW2Q=
+			tSJvN0QDfhdwvAFigaGFEHca6UUKdVW2h7DvP1Ap0bQ=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EFw5GFzQ6FgSbFZ3GjdTCRwBn+//9DEQPAIXXWqOe7U=
+			ck9yjJVWkqc5gv59JxjMUyXoTiwSC20fhG9CgHsBimM=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sc4PSULaz5K0pdOcX7XOYm0FTDWms74CEGlHPx6ZAI4=
+			1Enz4RYiEh0mSNxh2zTO9U7o1ktRI2e0TgVG7j5wwpU=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQwmTxAQO29ShQZLACaXDGAKCcOk7/9gN4vkGqhXvmA=
+			Aht7cWY9+9o0+CMEtbZ0M4xFKaoewxp684JL+q5Jfjk=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -364,14 +368,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQwmTxAQO29ShQZLACaXDGAKCcOk7/9gN4vkGqhXvmA=
+			Aht7cWY9+9o0+CMEtbZ0M4xFKaoewxp684JL+q5Jfjk=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h4CaUBxKQCvj3k9Xi6wjAV56kAHVMmU0Cq6GuafbsDc=
+			PLxm+6hSe8mOFaZMEx3VffbpQ1FHzi+tX3yNjoVUM+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -442,6 +446,13 @@
 			<key>hash2</key>
 			<data>
 			C8nl20zzS9ozl5lYD55t1Dm2hjFA6H2Wm5xBwD1PZfE=
+			</data>
+		</dict>
+		<key>apple copy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ju+LZo1SdhXH/IKD8ldRP+qW6RW2puDrjLQ3asW3KhQ=
 			</data>
 		</dict>
 		<key>apple.png</key>
