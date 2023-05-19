@@ -284,12 +284,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
-IB_DESIGNABLE
 SWIFT_CLASS("_TtC4Ottu14ApplepayButton")
 @interface ApplepayButton : UIButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
+- (void)drawRect:(CGRect)rect;
 @end
 
 
@@ -593,12 +592,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
-IB_DESIGNABLE
 SWIFT_CLASS("_TtC4Ottu14ApplepayButton")
 @interface ApplepayButton : UIButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
+- (void)drawRect:(CGRect)rect;
 @end
 
 
