@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "Ottu"
-    s.version      = "1.0.37"
+    s.version      = "1.0.38"
     s.summary      = "The Ottu iOS SDK makes it quick and easy to build an excellent payment experience in your iOS app."
     s.description  = <<-DESC
 **Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant.
