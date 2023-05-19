@@ -135,8 +135,8 @@ class ViewController: UIViewController,OttuDelegate {
 
 Please follow below steps to integrate apple pay button in storyboard
 <p float="left">
-<img src="https://github.com/Maninder1991/screens/blob/main/step1.png?raw=true"/>
-<img src="https://github.com/Maninder1991/screens/blob/main/step2.png?raw=true"/>
+<img src="https://github.com/Maninder1991/screens/blob/main/step1.png"  alt="ApplePay" align="center"  width="200" height="400""/>
+<img src="https://github.com/Maninder1991/screens/blob/main/step2.png"  alt="ApplePay" align="center"  width="200" height="400""/>
 
 Now Create a action for the button and initalise the SDK with session id.
 
