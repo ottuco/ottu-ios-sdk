@@ -12,7 +12,7 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 <p float="left">
 <img src="Screens/Cardfree.png" alt="PaymentUI" align="center"  width="200" height="400"/>
-<img src="https://github.com/Maninder1991/screens/blob/main/WithCardPayment.png" alt="PaymentUI" align="center"  width="200" height="400"/>
+<img src="Screens/WithCardPayment.png" alt="PaymentUI" align="center"  width="200" height="400"/>
 
 **Localized**: We support the following localizations: English, Arabic.
 
@@ -135,8 +135,8 @@ class ViewController: UIViewController,OttuDelegate {
 
 Please follow below steps to integrate apple pay button in storyboard
 <p float="left">
-<img src="https://github.com/Maninder1991/screens/blob/main/step1.png" alt="ApplePay" align="center"/>
-<img src="https://github.com/Maninder1991/screens/blob/main/step2.png"  alt="ApplePay" align="center"/>
+<img src="Screens/step1.png" alt="ApplePay" align="center"/>
+<img src="Screens/step2.png"  alt="ApplePay" align="center"/>
 
 Now Create a action for the button and initalise the SDK with session id.
 
