@@ -30,7 +30,7 @@ public class Ottu {
   public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", formsOfPayment: [Swift.String]? = nil, viewController: UIKit.UIViewController, delegate: any Ottu.OttuDelegate)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class ApplepayButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ApplepayButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
   @objc deinit
 }
