@@ -284,6 +284,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
+IB_DESIGNABLE
 SWIFT_CLASS("_TtC4Ottu14ApplepayButton")
 @interface ApplepayButton : UIButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;

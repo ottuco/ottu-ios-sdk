@@ -978,7 +978,7 @@
             "overriding": true,
             "objc_name": "layoutSubviews",
             "declAttributes": [
-              "Final",
+              "Dynamic",
               "ObjC",
               "Custom",
               "Override",
@@ -994,7 +994,6 @@
         "declAttributes": [
           "Custom",
           "AccessControl",
-          "Final",
           "IBDesignable",
           "ObjC"
         ],
@@ -14958,36 +14957,36 @@
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 523,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 474,
       "length": 6,
       "value": "\" Pay\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 614,
+      "offset": 598,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 624,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 676,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 700,
+      "offset": 762,
       "length": 12,
       "value": "\"apple copy\""
     },

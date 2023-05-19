@@ -995,6 +995,7 @@
           "Custom",
           "AccessControl",
           "Final",
+          "IBDesignable",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIButton",
@@ -14958,35 +14959,35 @@
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 474,
+      "offset": 497,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 500,
+      "offset": 523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 545,
       "length": 6,
       "value": "\" Pay\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 614,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 700,
       "length": 12,
       "value": "\"apple copy\""
     },

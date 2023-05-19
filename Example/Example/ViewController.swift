@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var apiKeyTF: UITextField!
     @IBOutlet weak var languageTF: UITextField!
     @IBOutlet weak var merchantIdTf: UITextField!
+    @IBOutlet weak var payButton: UIButton!
     
     
     //MARK: - Variables -
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
     //MARK: - VC Methods -
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
     
     
