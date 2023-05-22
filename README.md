@@ -4,7 +4,7 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 ## Features
 
-**Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant. This means the sensitive data is sent directly to Stripe instead of passing through your server.
+**Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant. This means the sensitive data is sent directly to Ottu instead of passing through your server.
 
 **Apple Pay**: We provide a seamless integration with Apple Pay.
 
