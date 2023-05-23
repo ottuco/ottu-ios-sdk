@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target  = '12.0'
     s.static_framework = true
     s.user_target_xcconfig = {
-      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/Ottu/Ottu.xcframework"'
+      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/Ottu/Ottu.xcframework","\$(PODS_ROOT)/Ottu/ApplePayButton.swift"'
     }
 end
