@@ -26,7 +26,7 @@ import UIKit
         self.clipsToBounds = true
         self.titleLabel?.font = .systemFont(ofSize: 24)
         self.setTitleColor(.white, for: .normal)
-        if let image = UIImage(named: "apple copy", in: Bundle(for: Ottu.self), compatibleWith: nil) {
+        if let image = UIImage(named: "apple_button") {
             self.setImage(image, for: .normal)
         }
         self.imageView?.contentMode = .scaleAspectFit
