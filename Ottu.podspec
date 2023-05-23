@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "Ottu"
-    s.version      = "1.0.47"
+    s.version      = "1.0.48"
     s.summary      = "The Ottu iOS SDK makes it quick and easy to build an excellent payment experience in your iOS app."
     s.description  = <<-DESC
 **Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant.
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
     s.ios.deployment_target  = '12.0'
     s.static_framework = true
     s.user_target_xcconfig = {
-      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/Ottu/Ottu.xcframework","\$(PODS_ROOT)/Ottu/ApplePayButton.swift"'
+      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/Ottu/Ottu.xcframework"',
+      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/Ottu/ApplePayButton.swift"'
+
     }
 end
