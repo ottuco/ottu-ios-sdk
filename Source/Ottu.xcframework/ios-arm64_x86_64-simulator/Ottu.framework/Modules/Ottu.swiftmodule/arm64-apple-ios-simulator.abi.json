@@ -1056,7 +1056,35 @@
             "mangledName": "$s4Ottu14ApplepayButtonC4drawyySo6CGRectVF",
             "moduleName": "Ottu",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Ottu@objc(cs)ApplepayButton(im)layoutSubviews",
+            "mangledName": "$s4Ottu14ApplepayButtonC14layoutSubviewsyyF",
+            "moduleName": "Ottu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -15038,70 +15066,70 @@
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 462,
       "length": 6,
       "value": "\" Pay\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 676,
+      "offset": 545,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 735,
+      "offset": 602,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 693,
       "length": 12,
       "value": "\"apple copy\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1094,
+      "offset": 926,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1221,
+      "offset": 1051,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1312,
+      "offset": 1140,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1378,
+      "offset": 1204,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1466,
+      "offset": 1290,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/ApplepayButton\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1518,
+      "offset": 1340,
       "length": 2,
       "value": "25"
     },

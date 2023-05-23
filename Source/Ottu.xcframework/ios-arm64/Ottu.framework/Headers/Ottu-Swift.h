@@ -290,6 +290,7 @@ SWIFT_CLASS("_TtC4Ottu14ApplepayButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)drawRect:(CGRect)rect;
+- (void)layoutSubviews;
 @end
 
 
