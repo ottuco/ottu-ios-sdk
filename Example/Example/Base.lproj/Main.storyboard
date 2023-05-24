@@ -67,6 +67,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yw5-2N-1Sb" customClass="ApplepayButton" customModule="ApplePayButton">
+                                <rect key="frame" x="20" y="488" width="374" height="34.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="applePayButton:" destination="t6z-JF-dpj" eventType="touchUpInside" id="WWn-HD-1uL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1cr-iy-wOr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -79,12 +87,16 @@
                             <constraint firstItem="pOM-hA-5jh" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="aMb-zK-z7D"/>
                             <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="ALC-Nm-Cl7" secondAttribute="trailing" constant="20" id="jN9-iA-utq"/>
                             <constraint firstItem="ALC-Nm-Cl7" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="jSY-O2-dl8"/>
+                            <constraint firstItem="yw5-2N-1Sb" firstAttribute="top" secondItem="ex6-f3-nY2" secondAttribute="bottom" constant="20" id="jSy-IQ-EaT"/>
+                            <constraint firstItem="yw5-2N-1Sb" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="u2I-55-ps5"/>
                             <constraint firstItem="ex6-f3-nY2" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="vJY-qu-TGK"/>
+                            <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="yw5-2N-1Sb" secondAttribute="trailing" constant="20" id="xuf-LC-ejJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="amountTF" destination="G2J-9F-GXe" id="dg5-4k-SBF"/>
                         <outlet property="apiKeyTF" destination="vhY-na-Izu" id="Kh1-VJ-DB1"/>
+                        <outlet property="applePayButton" destination="yw5-2N-1Sb" id="q0H-mt-aVM"/>
                         <outlet property="customerIdTF" destination="TG4-LG-1zZ" id="7qs-FB-ln5"/>
                         <outlet property="languageTF" destination="rTg-Zq-ikH" id="KPj-wP-Kcq"/>
                         <outlet property="merchantIdTf" destination="6dg-te-iBJ" id="VGc-5j-sUe"/>
@@ -96,11 +108,6 @@
             <point key="canvasLocation" x="131.8840579710145" y="55.580357142857139"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="ex6-f3-nY2">
-            <size key="intrinsicContentSize" width="142.5" height="34.5"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

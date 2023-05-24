@@ -7,11 +7,13 @@
 
 import UIKit
 import Ottu
+import ApplePayButton
 
 class ViewController: UIViewController {
     
     //MARK: - IBOutlets -
     
+    @IBOutlet weak var applePayButton: ApplepayButton!
     @IBOutlet weak var amountTF: UITextField!
     @IBOutlet weak var customerIdTF: UITextField!
     @IBOutlet weak var apiKeyTF: UITextField!
@@ -38,6 +40,8 @@ class ViewController: UIViewController {
     
     
     //MARK: - IBActions -
+    @IBAction func applePayButton(_ sender: Any) {
+    }
     
     @IBAction func startButton(_ sender: Any) {
         if Base_URL == "BASE_URL"{

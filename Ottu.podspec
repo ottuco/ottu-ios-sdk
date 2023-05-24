@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "Ottu"
-    s.version      = "1.0.71"
+    s.version      = "1.0.60"
     s.summary      = "The Ottu iOS SDK makes it quick and easy to build an excellent payment experience in your iOS app."
     s.description  = <<-DESC
 **Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant.
@@ -17,9 +17,6 @@ Pod::Spec.new do |s|
     s.author             = { "Maninder" => "er.maninderbindra@gmail.com" }
     s.source       = { :git => "https://github.com/ottuco/ottu-ios-sdk.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "Source/Ottu.xcframework"
-    s.resource_bundles = {
-         'AppleButton' => ['Source/AppleButton/apple_button.png']
-    }
     s.platform = :ios
     s.swift_version = "5.0"
 
