@@ -1,22 +1,22 @@
 PODS:
-  - Ottu (1.0.40)
+  - Ottu (1.0.60)
 
 DEPENDENCIES:
-  - Ottu (from `https://github.com/ottuco/ottu-ios-sdk.git`, tag `1.0.40`)
+  - Ottu (from `https://github.com/ottuco/ottu-ios-sdk.git`, tag `1.0.60`)
 
 EXTERNAL SOURCES:
   Ottu:
     :git: https://github.com/ottuco/ottu-ios-sdk.git
-    :tag: 1.0.40
+    :tag: 1.0.60
 
 CHECKOUT OPTIONS:
   Ottu:
     :git: https://github.com/ottuco/ottu-ios-sdk.git
-    :tag: 1.0.40
+    :tag: 1.0.60
 
 SPEC CHECKSUMS:
-  Ottu: 67d833e1a6d1dda8da9f8a18364b181bf5957731
+  Ottu: 01e81ee6b8b30728e609f16b0dacc15da721727c
 
-PODFILE CHECKSUM: b3c8c550ab3553e0b984505181c562ab94e4c5f2
+PODFILE CHECKSUM: 5a3a446e9b7e5c3f5fee037729f048a34c330634
 
 COCOAPODS: 1.12.1

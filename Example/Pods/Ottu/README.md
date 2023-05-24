@@ -4,15 +4,15 @@ The Ottu is iOS SDK makes it quick and easy to build an excellent payment experi
 
 ## Features
 
-**Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant. This means the sensitive data is sent directly to Stripe instead of passing through your server.
+**Simplified security**: We make it simple for you to collect sensitive data such as credit card numbers and remain PCI compliant. This means the sensitive data is sent directly to Ottu instead of passing through your server.
 
 **Apple Pay**: We provide a seamless integration with Apple Pay.
 
 **Native UI**: We provide native screens and elements to collect payment details.
 
 <p float="left">
-<img src="https://github.com/Maninder1991/screens/blob/main/Cardfree.png" alt="PaymentUI" align="center"  width="200" height="400"/>
-<img src="https://github.com/Maninder1991/screens/blob/main/WithCardPayment.png" alt="PaymentUI" align="center"  width="200" height="400"/>
+<img src="Screens/Cardfree.png" alt="PaymentUI" align="center"  width="200" height="400"/>
+<img src="Screens/WithCardPayment.png" alt="PaymentUI" align="center"  width="200" height="400"/>
 
 **Localized**: We support the following localizations: English, Arabic.
 
@@ -135,8 +135,8 @@ class ViewController: UIViewController,OttuDelegate {
 
 Please follow below steps to integrate apple pay button in storyboard
 <p float="left">
-<img src="https://github.com/Maninder1991/screens/blob/main/step1.png" alt="ApplePay" align="center"  width="200" height="400"/>
-<img src="https://github.com/Maninder1991/screens/blob/main/step2.png"  alt="ApplePay" align="center"  width="200" height="400"/>
+<img src="Screens/step1.png" alt="ApplePay" align="center"/>
+<img src="Screens/step2.png"  alt="ApplePay" align="center"/>
 
 Now Create a action for the button and initalise the SDK with session id.
 

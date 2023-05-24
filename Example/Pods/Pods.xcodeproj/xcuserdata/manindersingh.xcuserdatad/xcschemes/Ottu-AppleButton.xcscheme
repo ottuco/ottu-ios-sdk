@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C09C840EAF5253A08EAB02DBAF54A556"
-               BuildableName = "Ottu.framework"
-               BlueprintName = "Ottu"
+               BlueprintIdentifier = "DD87B3C559B96A1178B7D5B391F1944B"
+               BuildableName = "AppleButton.bundle"
+               BlueprintName = "Ottu-AppleButton"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

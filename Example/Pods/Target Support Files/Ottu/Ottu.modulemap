@@ -1,0 +1,6 @@
+framework module Ottu {
+  umbrella header "Ottu-umbrella.h"
+
+  export *
+  module * { export * }
+}
