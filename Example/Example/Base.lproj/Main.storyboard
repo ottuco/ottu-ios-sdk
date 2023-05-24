@@ -96,11 +96,6 @@
             <point key="canvasLocation" x="131.8840579710145" y="55.580357142857139"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="ex6-f3-nY2">
-            <size key="intrinsicContentSize" width="142.5" height="34.5"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
