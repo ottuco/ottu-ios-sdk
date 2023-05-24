@@ -6,26 +6,36 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C09C840EAF5253A08EAB02DBAF54A556 /* Ottu */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FE0B29CFBA5C53C30ABF97CFB0FC8C4 /* Build configuration list for PBXAggregateTarget "Ottu" */;
+			buildPhases = (
+				5AF4CD3612F05BB4939B13E3D181C797 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				49A49E878CDCF983DF9E357C8DE17953 /* PBXTargetDependency */,
+			);
+			name = Ottu;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		08D8E8E58F28E3574FA55E4BF0CFD17F /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B781125D8528C1EB45F8FF018759C9E /* ApplePayButton.swift */; };
 		1C6978713D911CC97FB9CFCB20D88848 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */; };
-		216CD9A668987BC749BA79366D9E7A16 /* apple_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C482D2053062734CB5A3D03CC69FBC53 /* apple_button.png */; };
-		75F1A333AD810631ED158C94C7C02147 /* Ottu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 083F1B37D8399658B0A97BEA8E13E54B /* Ottu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86DD7979E418FE3FC2C2382BD4F92CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		932DFB5BBBD38BCF317CBB62C9B892BC /* Ottu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A844878F50E6DC1BC3366DD2F449DD57 /* Ottu-dummy.m */; };
+		A656C22AF77084133A738F3CE949B98D /* apple_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF019308540626F87423BFF816F58D /* apple_button.png */; };
 		ACA7EB98D562F8D7A2AFAE2FB2102B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BC6B424F459B5FCAE4CD625D313FE49C /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		075AF1D6A3DF9DDC33317860FA1A03C8 /* PBXContainerItemProxy */ = {
+		4F923F0ABFB08BC7D2016C730319A048 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C09C840EAF5253A08EAB02DBAF54A556;
 			remoteInfo = Ottu;
 		};
-		08ADB77F162414900034B213F4468392 /* PBXContainerItemProxy */ = {
+		E084DA3FB0A0E7697F3D2BC225195900 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,32 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		083F1B37D8399658B0A97BEA8E13E54B /* Ottu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ottu-umbrella.h"; sourceTree = "<group>"; };
 		0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		10A028C1355C497E69B7FA3D9F05B59E /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		127B06FB7C8228ACE7C586DBE9ACBFD0 /* Ottu-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ottu-xcframeworks.sh"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		275493C5D8CE0DAAADCCA0E27E07FF71 /* Ottu.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Ottu.xcframework; path = Source/Ottu.xcframework; sourceTree = "<group>"; };
 		296E34B67EAB4DF7C751A2F53990E8EA /* Ottu-AppleButton */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Ottu-AppleButton"; path = AppleButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EF019308540626F87423BFF816F58D /* apple_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apple_button.png; path = Source/AppleButton/apple_button.png; sourceTree = "<group>"; };
 		2F584467E77187F22B38443ED1DED5C1 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		342BB03BD2E386A3E95E604DDC83E4B2 /* Ottu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ottu-Info.plist"; sourceTree = "<group>"; };
 		36B858E96F9D6F65BD7D5BA2DF6A3A23 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		4780CD6EACA8F069C6FA7178D383A077 /* Ottu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ottu; path = Ottu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55A3F1607DD7313ECAAA69CA088E9B01 /* Ottu.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Ottu.xcframework; path = Source/Ottu.xcframework; sourceTree = "<group>"; };
-		66D5F044A959B81FA6D1E79D83FF57CA /* Ottu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.debug.xcconfig; sourceTree = "<group>"; };
-		6A176FD92AE129DA8116E051E1DD8EF3 /* Ottu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ottu.modulemap; sourceTree = "<group>"; };
-		6B781125D8528C1EB45F8FF018759C9E /* ApplePayButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayButton.swift; path = Source/AppleButton/ApplePayButton.swift; sourceTree = "<group>"; };
+		414438539932175A6E34D5D0C78570E9 /* ResourceBundle-AppleButton-Ottu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppleButton-Ottu-Info.plist"; sourceTree = "<group>"; };
+		661F929960B960B380A7E1ABCFCCF71D /* Ottu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		88720EEB19C38A893F59C4A28DD4ABDB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		969534EF78FB6393988A0C432C4065CB /* Ottu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ottu-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A844878F50E6DC1BC3366DD2F449DD57 /* Ottu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ottu-dummy.m"; sourceTree = "<group>"; };
-		B776FB82B37C6969604AAA7A8C499329 /* Ottu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.release.xcconfig; sourceTree = "<group>"; };
 		C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		C482D2053062734CB5A3D03CC69FBC53 /* apple_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apple_button.png; path = Source/AppleButton/apple_button.png; sourceTree = "<group>"; };
+		D07258F4469725E7A7A996C87867885A /* Ottu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.debug.xcconfig; sourceTree = "<group>"; };
+		D5D9DD77A09EF1F414A801D240588623 /* Ottu-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ottu-xcframeworks.sh"; sourceTree = "<group>"; };
 		E461604D1935300640BC06EC98AF2CF6 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		E46AE294CD9E3FDF378630D8D450B624 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		E6853D213AF73E8E68ED3CFDF320ED7C /* ResourceBundle-AppleButton-Ottu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppleButton-Ottu-Info.plist"; sourceTree = "<group>"; };
 		EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,41 +76,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		767EC85DA04D6E45579671387A289C57 /* Frameworks */ = {
+		A2573536AA15654EB270B27D4164FF92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83F274AE14FB2875F68E099B32BD51AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86DD7979E418FE3FC2C2382BD4F92CD3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0721429136FE010C7DB1F1EF26ECF057 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6A176FD92AE129DA8116E051E1DD8EF3 /* Ottu.modulemap */,
-				A844878F50E6DC1BC3366DD2F449DD57 /* Ottu-dummy.m */,
-				342BB03BD2E386A3E95E604DDC83E4B2 /* Ottu-Info.plist */,
-				969534EF78FB6393988A0C432C4065CB /* Ottu-prefix.pch */,
-				083F1B37D8399658B0A97BEA8E13E54B /* Ottu-umbrella.h */,
-				127B06FB7C8228ACE7C586DBE9ACBFD0 /* Ottu-xcframeworks.sh */,
-				66D5F044A959B81FA6D1E79D83FF57CA /* Ottu.debug.xcconfig */,
-				B776FB82B37C6969604AAA7A8C499329 /* Ottu.release.xcconfig */,
-				E6853D213AF73E8E68ED3CFDF320ED7C /* ResourceBundle-AppleButton-Ottu-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Ottu";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,18 +94,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		856E8E6989C2FE0F92AFBC85240B0E02 /* Resources */ = {
+		63C67AE12D8A9C201B18AB3ACAF93AC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C482D2053062734CB5A3D03CC69FBC53 /* apple_button.png */,
+				D5D9DD77A09EF1F414A801D240588623 /* Ottu-xcframeworks.sh */,
+				D07258F4469725E7A7A996C87867885A /* Ottu.debug.xcconfig */,
+				661F929960B960B380A7E1ABCFCCF71D /* Ottu.release.xcconfig */,
+				414438539932175A6E34D5D0C78570E9 /* ResourceBundle-AppleButton-Ottu-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/Ottu";
 			sourceTree = "<group>";
 		};
-		9366AE45BE77FD1FD2C6C4A6297E9A8E /* Products */ = {
+		ADC86FAE9FADC884B4D385B7CEEF1F21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4780CD6EACA8F069C6FA7178D383A077 /* Ottu */,
 				296E34B67EAB4DF7C751A2F53990E8EA /* Ottu-AppleButton */,
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
 			);
@@ -142,24 +123,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C1CF74E38C3ABDBF278B87AD9FC36942 /* Ottu */ = {
+		C05A1DDD8F192739B229E55BAEF9B99E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B781125D8528C1EB45F8FF018759C9E /* ApplePayButton.swift */,
-				E458D26BBEF8644653E2E3B48D16A0BF /* Frameworks */,
-				856E8E6989C2FE0F92AFBC85240B0E02 /* Resources */,
-				0721429136FE010C7DB1F1EF26ECF057 /* Support Files */,
+				275493C5D8CE0DAAADCCA0E27E07FF71 /* Ottu.xcframework */,
 			);
-			name = Ottu;
-			path = Ottu;
-			sourceTree = "<group>";
-		};
-		CCD0E7415055572A21DF7CC272E9F78E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C1CF74E38C3ABDBF278B87AD9FC36942 /* Ottu */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -167,8 +136,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CCD0E7415055572A21DF7CC272E9F78E /* Pods */,
-				9366AE45BE77FD1FD2C6C4A6297E9A8E /* Products */,
+				F146877D9230F5A98BEC1F3BFEC93888 /* Pods */,
+				ADC86FAE9FADC884B4D385B7CEEF1F21 /* Products */,
 				B36C0C7C10660C72F38622494EBA9D54 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -199,25 +168,36 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		E458D26BBEF8644653E2E3B48D16A0BF /* Frameworks */ = {
+		E72A54E03222F1023A9B99655C950D6D /* Ottu */ = {
 			isa = PBXGroup;
 			children = (
-				55A3F1607DD7313ECAAA69CA088E9B01 /* Ottu.xcframework */,
+				C05A1DDD8F192739B229E55BAEF9B99E /* Frameworks */,
+				EF0711D92D255B5300B20D533B2BBCF7 /* Resources */,
+				63C67AE12D8A9C201B18AB3ACAF93AC2 /* Support Files */,
 			);
-			name = Frameworks;
+			name = Ottu;
+			path = Ottu;
+			sourceTree = "<group>";
+		};
+		EF0711D92D255B5300B20D533B2BBCF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29EF019308540626F87423BFF816F58D /* apple_button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F146877D9230F5A98BEC1F3BFEC93888 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E72A54E03222F1023A9B99655C950D6D /* Ottu */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52A2090B47AF85062684433E352C941C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75F1A333AD810631ED158C94C7C02147 /* Ottu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		651AD24028BA27B1BD322F2233CD308F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,40 +221,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAB8D9EF73BB6D0112567E6CAE67F919 /* PBXTargetDependency */,
+				B921571209F97FF4D1346D81D62384CE /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
 			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		C09C840EAF5253A08EAB02DBAF54A556 /* Ottu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02152CB7D28920011BAD5AC3422157E5 /* Build configuration list for PBXNativeTarget "Ottu" */;
-			buildPhases = (
-				52A2090B47AF85062684433E352C941C /* Headers */,
-				984418BAC4AF22F2A779DE8CE5278C44 /* [CP] Copy XCFrameworks */,
-				6FB2C80F1AB97501CD320689D57471C0 /* Sources */,
-				83F274AE14FB2875F68E099B32BD51AE /* Frameworks */,
-				F7668CA634BF85EE05C4192778042CC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				128D2635756196F93ECE82A6830CB18F /* PBXTargetDependency */,
-			);
-			name = Ottu;
-			productName = Ottu;
-			productReference = 4780CD6EACA8F069C6FA7178D383A077 /* Ottu */;
-			productType = "com.apple.product-type.framework";
-		};
 		DD87B3C559B96A1178B7D5B391F1944B /* Ottu-AppleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB3CB17CB4922984D357BABFE95CEE13 /* Build configuration list for PBXNativeTarget "Ottu-AppleButton" */;
+			buildConfigurationList = 9AD216862EE0569A47E6439FAC63FCCA /* Build configuration list for PBXNativeTarget "Ottu-AppleButton" */;
 			buildPhases = (
-				8E6F061816CF5AA247D8F162B4FF60CF /* Sources */,
-				767EC85DA04D6E45579671387A289C57 /* Frameworks */,
-				0EDF903B3C3A6D6B34F2128F6AFB5F3F /* Resources */,
+				1750B4C19C0C708BC760DECCA877B543 /* Sources */,
+				A2573536AA15654EB270B27D4164FF92 /* Frameworks */,
+				7097DF6B61754798C453E4C1396D24C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -303,7 +263,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9366AE45BE77FD1FD2C6C4A6297E9A8E /* Products */;
+			productRefGroup = ADC86FAE9FADC884B4D385B7CEEF1F21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -315,14 +275,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EDF903B3C3A6D6B34F2128F6AFB5F3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				216CD9A668987BC749BA79366D9E7A16 /* apple_button.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D0EDEC31AD89E8546A1113E993025E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,17 +282,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7668CA634BF85EE05C4192778042CC3 /* Resources */ = {
+		7097DF6B61754798C453E4C1396D24C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A656C22AF77084133A738F3CE949B98D /* apple_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		984418BAC4AF22F2A779DE8CE5278C44 /* [CP] Copy XCFrameworks */ = {
+		5AF4CD3612F05BB4939B13E3D181C797 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,12 +313,10 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6FB2C80F1AB97501CD320689D57471C0 /* Sources */ = {
+		1750B4C19C0C708BC760DECCA877B543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D8E8E58F28E3574FA55E4BF0CFD17F /* ApplePayButton.swift in Sources */,
-				932DFB5BBBD38BCF317CBB62C9B892BC /* Ottu-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,34 +328,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E6F061816CF5AA247D8F162B4FF60CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		128D2635756196F93ECE82A6830CB18F /* PBXTargetDependency */ = {
+		49A49E878CDCF983DF9E357C8DE17953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Ottu-AppleButton";
 			target = DD87B3C559B96A1178B7D5B391F1944B /* Ottu-AppleButton */;
-			targetProxy = 08ADB77F162414900034B213F4468392 /* PBXContainerItemProxy */;
+			targetProxy = E084DA3FB0A0E7697F3D2BC225195900 /* PBXContainerItemProxy */;
 		};
-		EAB8D9EF73BB6D0112567E6CAE67F919 /* PBXTargetDependency */ = {
+		B921571209F97FF4D1346D81D62384CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Ottu;
 			target = C09C840EAF5253A08EAB02DBAF54A556 /* Ottu */;
-			targetProxy = 075AF1D6A3DF9DDC33317860FA1A03C8 /* PBXContainerItemProxy */;
+			targetProxy = 4F923F0ABFB08BC7D2016C730319A048 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3A67C0EFDE766818416D16E7AD128F24 /* Release */ = {
+		1C1560120AC359549E3887CF118EF1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B776FB82B37C6969604AAA7A8C499329 /* Ottu.release.xcconfig */;
+			baseConfigurationReference = 661F929960B960B380A7E1ABCFCCF71D /* Ottu.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ottu";
@@ -419,42 +363,22 @@
 			};
 			name = Release;
 		};
-		3FA311F39DE5C94D85E72E2FC9225C5D /* Release */ = {
+		2078C9AD601BE5E9F6A695CD7DAE8527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B776FB82B37C6969604AAA7A8C499329 /* Ottu.release.xcconfig */;
+			baseConfigurationReference = D07258F4469725E7A7A996C87867885A /* Ottu.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Ottu/Ottu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Ottu/Ottu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Ottu/Ottu.modulemap";
-				PRODUCT_MODULE_NAME = Ottu;
-				PRODUCT_NAME = Ottu;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4D8B4BA60D9722E3275BC1707015B84E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -493,23 +417,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7D324D4DA7E141E42BAE2009BEC6F904 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66D5F044A959B81FA6D1E79D83FF57CA /* Ottu.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ottu";
-				IBSC_MODULE = Ottu;
-				INFOPLIST_FILE = "Target Support Files/Ottu/ResourceBundle-AppleButton-Ottu-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = AppleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -639,41 +546,23 @@
 			};
 			name = Release;
 		};
-		BFFFAA2311B91F040FE1537969279C74 /* Debug */ = {
+		A8839222C602EE37E5C9117A1F7E1B1B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66D5F044A959B81FA6D1E79D83FF57CA /* Ottu.debug.xcconfig */;
+			baseConfigurationReference = 661F929960B960B380A7E1ABCFCCF71D /* Ottu.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Ottu/Ottu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Ottu/Ottu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Ottu/Ottu.modulemap";
-				PRODUCT_MODULE_NAME = Ottu;
-				PRODUCT_NAME = Ottu;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		EDD504030F208AC8BCE0950B4A21C6C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -712,23 +601,40 @@
 			};
 			name = Debug;
 		};
+		F93EC7037AC42EB153CD43FAE194F493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07258F4469725E7A7A996C87867885A /* Ottu.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ottu";
+				IBSC_MODULE = Ottu;
+				INFOPLIST_FILE = "Target Support Files/Ottu/ResourceBundle-AppleButton-Ottu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02152CB7D28920011BAD5AC3422157E5 /* Build configuration list for PBXNativeTarget "Ottu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFFFAA2311B91F040FE1537969279C74 /* Debug */,
-				3FA311F39DE5C94D85E72E2FC9225C5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		115A4B9E3EF17C2247515101E5F6EA89 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD504030F208AC8BCE0950B4A21C6C1 /* Debug */,
 				4D8B4BA60D9722E3275BC1707015B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0B29CFBA5C53C30ABF97CFB0FC8C4 /* Build configuration list for PBXAggregateTarget "Ottu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C9AD601BE5E9F6A695CD7DAE8527 /* Debug */,
+				A8839222C602EE37E5C9117A1F7E1B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,11 +648,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB3CB17CB4922984D357BABFE95CEE13 /* Build configuration list for PBXNativeTarget "Ottu-AppleButton" */ = {
+		9AD216862EE0569A47E6439FAC63FCCA /* Build configuration list for PBXNativeTarget "Ottu-AppleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D324D4DA7E141E42BAE2009BEC6F904 /* Debug */,
-				3A67C0EFDE766818416D16E7AD128F24 /* Release */,
+				F93EC7037AC42EB153CD43FAE194F493 /* Debug */,
+				1C1560120AC359549E3887CF118EF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

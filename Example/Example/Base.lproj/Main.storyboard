@@ -50,7 +50,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ex6-f3-nY2" customClass="ApplepayButton" customModule="Ottu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ex6-f3-nY2" customClass="Apple">
                                 <rect key="frame" x="20" y="418" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="yNr-Te-aDC"/>
