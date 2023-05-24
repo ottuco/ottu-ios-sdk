@@ -1,6 +1,0 @@
-framework module ApplePayButton {
-  umbrella header "ApplePayButton-umbrella.h"
-
-  export *
-  module * { export * }
-}
