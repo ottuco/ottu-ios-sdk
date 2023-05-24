@@ -26,7 +26,11 @@ import UIKit
         self.clipsToBounds = true
         self.titleLabel?.font = .systemFont(ofSize: 24)
         self.setTitleColor(.white, for: .normal)
-        if let image = UIImage(named: "apple_button") {
+        let bundle = Bundle(for: ApplepayButton.self)
+        let bundleURL = bundle.resourceURL?.appendingPathComponent("AppleButton.bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+        
+        if let image = UIImage(named: "apple_button", in: resourceBundle, compatibleWith: nil) {
             self.setImage(image, for: .normal)
         }
         self.imageView?.contentMode = .scaleAspectFit
