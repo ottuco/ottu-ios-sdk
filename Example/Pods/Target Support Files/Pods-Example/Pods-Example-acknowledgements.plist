@@ -14,6 +14,18 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright 2023
+Permission is granted to ApplePayButton
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>ApplePayButton</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright 2022
 Permission is granted to Ottu
 </string>

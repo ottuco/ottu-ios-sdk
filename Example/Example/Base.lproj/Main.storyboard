@@ -108,6 +108,11 @@
             <point key="canvasLocation" x="131.8840579710145" y="55.580357142857139"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="yw5-2N-1Sb">
+            <size key="intrinsicContentSize" width="75" height="34.5"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

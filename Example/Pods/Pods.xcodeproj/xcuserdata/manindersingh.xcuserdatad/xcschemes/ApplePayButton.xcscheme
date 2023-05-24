@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C09C840EAF5253A08EAB02DBAF54A556"
-               BuildableName = "Ottu"
-               BlueprintName = "Ottu"
+               BlueprintIdentifier = "1FA24542D3F03E33C681F510A0B98ECF"
+               BuildableName = "ApplePayButton.framework"
+               BlueprintName = "ApplePayButton"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

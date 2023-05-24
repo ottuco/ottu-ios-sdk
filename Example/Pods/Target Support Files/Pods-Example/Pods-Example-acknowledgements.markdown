@@ -1,6 +1,12 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## ApplePayButton
+
+Copyright 2023
+Permission is granted to ApplePayButton
+
+
 ## Ottu
 
 Copyright 2022
