@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C09C840EAF5253A08EAB02DBAF54A556"
-               BuildableName = "Ottu"
+               BuildableName = "Ottu.framework"
                BlueprintName = "Ottu"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
