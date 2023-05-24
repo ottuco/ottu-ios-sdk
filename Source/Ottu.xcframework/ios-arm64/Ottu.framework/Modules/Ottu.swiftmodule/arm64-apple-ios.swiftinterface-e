@@ -30,11 +30,3 @@ public class Ottu {
   public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", formsOfPayment: [Swift.String]? = nil, viewController: UIKit.UIViewController, delegate: any Ottu.OttuDelegate)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class ApplepayButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @objc deinit
-}
