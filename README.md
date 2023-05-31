@@ -42,7 +42,7 @@ Installation
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Ottu'
+pod 'Ottu', :git => 'https://github.com/ottuco/ottu-ios-sdk.git', :tag => '1.0.75'
 ```
 
 #### Installation with Swift Package Manager
