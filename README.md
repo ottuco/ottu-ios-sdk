@@ -33,6 +33,8 @@ The Ottu requires Xcode 13.0 or later and is compatible with apps targeting iOS 
 To initialize the SDK you need to create session token. 
 You can create session token with our public API [Click here](https://docs-ottu.gitbook.io/o/developer/rest-api/authentication#public-key) to see more detail about our public API.
     
+#Note: Demo project is already created inside the repo. Please go through it if any issue. 
+    
 Installation
 ==========================
 
