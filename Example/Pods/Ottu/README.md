@@ -33,6 +33,8 @@ The Ottu requires Xcode 13.0 or later and is compatible with apps targeting iOS 
 To initialize the SDK you need to create session token. 
 You can create session token with our public API [Click here](https://docs-ottu.gitbook.io/o/developer/rest-api/authentication#public-key) to see more detail about our public API.
     
+#Note: Demo project is already created inside the repo. Please go through it if any issue. 
+    
 Installation
 ==========================
 
@@ -42,7 +44,7 @@ Installation
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Ottu'
+pod 'Ottu', :git => 'https://github.com/ottuco/ottu-ios-sdk.git', :tag => '1.0.75'
 ```
 
 #### Installation with Swift Package Manager
@@ -136,8 +138,7 @@ class ViewController: UIViewController,OttuDelegate {
 Please follow below steps to integrate apple pay button in storyboard
 <p float="left">
 <img src="Screens/step1.png" alt="ApplePay" align="center"/>
-<img src="Screens/step2.png"  alt="ApplePay" align="center"/>
-
+    
 Now Create a action for the button and initalise the SDK with session id.
 
 ```swift
