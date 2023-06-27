@@ -2748,98 +2748,98 @@
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1754,
+      "offset": 2087,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 2264,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2018,
+      "offset": 2351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2665,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2418,
+      "offset": 2751,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 3063,
       "length": 10,
       "value": "\"canceled\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2818,
+      "offset": 3151,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 3262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3094,
+      "offset": 3427,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3527,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3819,
+      "offset": 4152,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 3925,
+      "offset": 4258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4092,
+      "offset": 4425,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectScreen\/WebView.swift",
       "kind": "StringLiteral",
-      "offset": 4183,
+      "offset": 4516,
       "length": 7,
       "value": "\"Error\""
     },
