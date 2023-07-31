@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         //TODO: - Set Paramters accordingly
         var params = [String : Any]()
         params["type"] = "e_commerce"
-        params["pg_codes"] = ["knet-test"]//"ottu_pg_kwd_tkn",mpgs
+        params["pg_codes"] = ["stc_pay"]//"ottu_pg_kwd_tkn",mpgs
         params["amount"] = amountTF.text ?? ""
         params["currency_code"] = "KWD"
         params["disclosure_url"] = Disclouser_URL
