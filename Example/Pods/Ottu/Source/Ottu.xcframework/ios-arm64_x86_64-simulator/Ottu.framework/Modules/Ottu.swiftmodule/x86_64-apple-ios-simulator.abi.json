@@ -3158,15 +3158,15 @@
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
       "offset": 2937,
-      "length": 12,
-      "value": "\"square.png\""
+      "length": 15,
+      "value": "\"check-box.png\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
-      "length": 15,
-      "value": "\"check-box.png\""
+      "offset": 3067,
+      "length": 12,
+      "value": "\"square.png\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
