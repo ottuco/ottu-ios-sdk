@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8rbH2pGMMq0dZMrjsTcD/vmH42M=
+		RGzIavHek6e4uNt0q4lestm9/V0=
 		</data>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8rbH2pGMMq0dZMrjsTcD/vmH42M=
+		RGzIavHek6e4uNt0q4lestm9/V0=
 		</data>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -140,7 +140,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wgsBfDseKj2MPbCTTWMknxcK2yQ=
+			m3qIMaOASDC805wojdxQyp8HNzE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -230,6 +230,10 @@
 		<data>
 		dS5Hec74VO23NfkuUPeH1O9Nc7g=
 		</data>
+		<key>stcpay.png</key>
+		<data>
+		tN9enl+mfOaoJ1nGd/rjXAsPsZI=
+		</data>
 		<key>success.png</key>
 		<data>
 		B2z4V8fJmuKo/adalwSFZU4E5So=
@@ -316,7 +320,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBYMdiZ5PprQKeGzSIu4JHGQPDZ3L4wuntNK8j+tch0=
+			e8N38kU7p3QSBH5zL8lON/097pmAbalYPqIhMQdpb3A=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -351,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBYMdiZ5PprQKeGzSIu4JHGQPDZ3L4wuntNK8j+tch0=
+			e8N38kU7p3QSBH5zL8lON/097pmAbalYPqIhMQdpb3A=
 			</data>
 		</dict>
 		<key>Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -477,7 +481,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xDegbdO0dLREDIUKTzXbgyxrUuGEWDuTWAD1NXO3pDs=
+			Gx1thf97oY/zaH2+/gx2GP4FtQJzd5G1SAdhUjv9tTo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -622,6 +626,13 @@
 			<key>hash2</key>
 			<data>
 			gxWGq/pVMY5pIpBuz3v2KimpbvcKmE2Up5a3Iy89buo=
+			</data>
+		</dict>
+		<key>stcpay.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GUrgMUTNjRWDDGvxX0BvDXmZ3D5S60NeXCjVBnKeg7M=
 			</data>
 		</dict>
 		<key>success.png</key>
