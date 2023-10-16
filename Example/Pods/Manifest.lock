@@ -1,10 +1,10 @@
 PODS:
   - ApplePayButton (1.0.0)
-  - Ottu (1.0.81):
+  - Ottu (1.0.83):
     - ApplePayButton
 
 DEPENDENCIES:
-  - Ottu (from `https://github.com/ottuco/ottu-ios-sdk.git`, tag `1.0.82`)
+  - Ottu (from `https://github.com/ottuco/ottu-ios-sdk.git`, tag `1.0.83`)
 
 SPEC REPOS:
   trunk:
@@ -13,17 +13,17 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Ottu:
     :git: https://github.com/ottuco/ottu-ios-sdk.git
-    :tag: 1.0.82
+    :tag: 1.0.83
 
 CHECKOUT OPTIONS:
   Ottu:
     :git: https://github.com/ottuco/ottu-ios-sdk.git
-    :tag: 1.0.82
+    :tag: 1.0.83
 
 SPEC CHECKSUMS:
   ApplePayButton: 5fb2f2eb7e7890bcb7831e46c4adf6d45ea140b8
-  Ottu: e00ca2c742e3891f6c73c219ad9722b017f31596
+  Ottu: 2a26c1222412a2ebf87e6a609569e51ca9ace63a
 
-PODFILE CHECKSUM: 371b791223ea8e32087bd1827ca874f8b822e2e0
+PODFILE CHECKSUM: dd09fd38d0a2be2d2bc745c9c34e59294648918d
 
 COCOAPODS: 1.13.0
