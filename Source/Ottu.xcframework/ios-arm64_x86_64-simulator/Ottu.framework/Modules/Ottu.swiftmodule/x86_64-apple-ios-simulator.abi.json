@@ -414,6 +414,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Ottu",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -916,6 +926,321 @@
         "declKind": "Class",
         "usr": "s:4OttuAAC",
         "mangledName": "$s4OttuAAC",
+        "moduleName": "Ottu",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HeaderView",
+        "printedName": "HeaderView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:params:merchant_id:apiKey:lang:formsOfPayment:viewController:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeaderView",
+                "printedName": "Ottu.HeaderView",
+                "usr": "c:@M@Ottu@objc(cs)HeaderView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OttuParameters",
+                "printedName": "Ottu.OttuParameters",
+                "usr": "s:4Ottu0A10ParametersC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OttuDelegate",
+                "printedName": "Ottu.OttuDelegate",
+                "usr": "s:4Ottu0A8DelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Ottu10HeaderViewC5frame6params11merchant_id6apiKey4lang14formsOfPayment14viewController8delegateACSo6CGRectV_AA0A10ParametersCS3SSaySSGSgSo06UIViewO0CAA0A8Delegate_ptcfc",
+            "mangledName": "$s4Ottu10HeaderViewC5frame6params11merchant_id6apiKey4lang14formsOfPayment14viewController8delegateACSo6CGRectV_AA0A10ParametersCS3SSaySSGSgSo06UIViewO0CAA0A8Delegate_ptcfc",
+            "moduleName": "Ottu",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeaderView",
+                "printedName": "Ottu.HeaderView",
+                "usr": "c:@M@Ottu@objc(cs)HeaderView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Ottu@objc(cs)HeaderView(im)initWithFrame:",
+            "mangledName": "$s4Ottu10HeaderViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "Ottu",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Ottu@objc(cs)HeaderView",
+        "mangledName": "$s4Ottu10HeaderViewC",
+        "moduleName": "Ottu",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OttuParameters",
+        "printedName": "OttuParameters",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:pg_codes:amount:currency_code:disclosure_url:redirect_url:customer_id:expiration_time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OttuParameters",
+                "printedName": "Ottu.OttuParameters",
+                "usr": "s:4Ottu0A10ParametersC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Ottu0A10ParametersC4type8pg_codes6amount13currency_code14disclosure_url09redirect_J011customer_id15expiration_timeACSS_SaySSGS6Stcfc",
+            "mangledName": "$s4Ottu0A10ParametersC4type8pg_codes6amount13currency_code14disclosure_url09redirect_J011customer_id15expiration_timeACSS_SaySSGS6Stcfc",
+            "moduleName": "Ottu",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4Ottu0A10ParametersC",
+        "mangledName": "$s4Ottu0A10ParametersC",
         "moduleName": "Ottu",
         "declAttributes": [
           "AccessControl"
@@ -3150,415 +3475,814 @@
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1250,
       "length": 15,
       "value": "\"Mobile Number\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1302,
       "length": 18,
       "value": "\"Save STC Account\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1324,
+      "offset": 1362,
       "length": 15,
       "value": "\"Mobile Number\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1455,
       "length": 10,
       "value": "\"Send OTP\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1516,
       "length": 11,
       "value": "\"Enter OTP\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1567,
       "length": 5,
       "value": "\"OTP\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1647,
       "length": 5,
       "value": "\"Pay\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1668,
+      "offset": 1706,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1702,
+      "offset": 1740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1740,
+      "offset": 1778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1806,
+      "offset": 1844,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
+      "offset": 1878,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 1933,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 1986,
       "length": 11,
       "value": "\"backright\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 2087,
+      "offset": 2125,
       "length": 14,
       "value": "\"backleft.png\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2256,
+      "offset": 2294,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2313,
+      "offset": 2351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2517,
+      "offset": 2555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2550,
+      "offset": 2588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2679,
+      "offset": 2717,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2815,
+      "offset": 2877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2854,
+      "offset": 2916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 2893,
+      "offset": 2955,
       "length": 18,
       "value": "\"Please enter OTP\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2984,
+      "offset": 3046,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3018,
+      "offset": 3080,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3321,
       "length": 15,
       "value": "\"check-box.png\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3451,
       "length": 12,
       "value": "\"square.png\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3597,
+      "offset": 3659,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3636,
+      "offset": 3698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3672,
+      "offset": 3734,
       "length": 28,
       "value": "\"Please enter mobile number\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3813,
+      "offset": 3875,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3818,
+      "offset": 3880,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3857,
+      "offset": 3919,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 3893,
+      "offset": 3955,
       "length": 34,
       "value": "\"Please enter valid mobile number\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4000,
+      "offset": 4062,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4031,
+      "offset": 4093,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4058,
+      "offset": 4120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4468,
       "length": 12,
       "value": "\"1234567890\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4431,
+      "offset": 4493,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4489,
+      "offset": 4551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4748,
+      "offset": 4810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4896,
+      "offset": 4958,
       "length": 9,
       "value": "\"pg_code\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4945,
+      "offset": 5007,
       "length": 16,
       "value": "\"customer_phone\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4981,
+      "offset": 5043,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 4999,
+      "offset": 5061,
       "length": 11,
       "value": "\"save_card\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5327,
+      "offset": 5389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5376,
+      "offset": 5438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 5420,
+      "offset": 5482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5472,
+      "offset": 5534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 5523,
+      "offset": 5585,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5680,
+      "offset": 5742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 5813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 5971,
+      "offset": 6033,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6114,
+      "offset": 6176,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6163,
+      "offset": 6225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6332,
+      "offset": 6394,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/STC Pay\/STCMobilePopupVC.swift",
       "kind": "StringLiteral",
-      "offset": 6639,
+      "offset": 6701,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 9,
+      "value": "\"stc_pay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 18,
+      "value": "\"STCMobilePopupVC\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 830,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1019,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 40,
+      "value": "\"STC pay not available on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1272,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1282,
+      "length": 40,
+      "value": "\"STC pay not available on your pg code.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1764,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 31,
+      "value": "\"Merchant id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1973,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 31,
+      "value": "\"Merchant id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2143,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2210,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2297,
+      "length": 27,
+      "value": "\"Api key can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2348,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 27,
+      "value": "\"Api key can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2583,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2670,
+      "length": 30,
+      "value": "\"Session id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2724,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2734,
+      "length": 30,
+      "value": "\"Session id can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2969,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3056,
+      "length": 28,
+      "value": "\"Language can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3108,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3118,
+      "length": 28,
+      "value": "\"Language can not be empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3241,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 4,
+      "value": "\"ar\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3388,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3475,
+      "length": 30,
+      "value": "\"Language should be en or ar.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3529,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3539,
+      "length": 30,
+      "value": "\"Language should be en or ar.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3935,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4041,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4475,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4652,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4739,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5053,
+      "length": 8,
+      "value": "\"failed\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5451,
+      "length": 10,
+      "value": "\"canceled\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5539,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5815,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5915,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6099,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6372,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6463,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6736,
+      "length": 66,
+      "value": "\"Your device is jailbreak. Please try to pay with another device.\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6858,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/SingleSTCPayVC\/STCPayVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6950,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/Constants\/AppConstants.swift",
@@ -13881,114 +14605,506 @@
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 572,
+      "length": 10,
+      "value": "\"STCPayVC\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
       "length": 10,
       "value": "\"applePay\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "BooleanLiteral",
-      "offset": 757,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1063,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1155,
+      "offset": 1013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1186,
+      "length": 8,
+      "value": "\"stcPay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 1744,
       "length": 21,
       "value": "\"SF-Pro-Text-Regular\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
+      "offset": 1773,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1389,
+      "offset": 1829,
       "length": 20,
       "value": "\"SF-Pro-Text-Medium\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1857,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1913,
       "length": 18,
       "value": "\"SF-Pro-Text-Bold\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1939,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 1995,
       "length": 22,
       "value": "\"SF-Pro-Text-Semibold\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 2025,
       "length": 6,
       "value": "\".otf\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 2168,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 2323,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "StringLiteral",
-      "offset": 2053,
+      "offset": 2493,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
       "kind": "BooleanLiteral",
-      "offset": 2145,
+      "offset": 2585,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 2940,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 8,
+      "value": "\"stcPay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3120,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3157,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 3208,
+      "length": 10,
+      "value": "\"applePay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3262,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "FloatLiteral",
+      "offset": 3683,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3937,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4112,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4200,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4279,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4592,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4723,
+      "length": 48,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4746,
+      "length": 1,
+      "value": "\"\/b\/checkout\/v1\/pymt-txn\/\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4808,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 10,
+      "value": "\"pg_codes\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4882,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4919,
+      "length": 15,
+      "value": "\"currency_code\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 4970,
+      "length": 16,
+      "value": "\"disclosure_url\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5023,
+      "length": 14,
+      "value": "\"redirect_url\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5072,
+      "length": 13,
+      "value": "\"customer_id\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 17,
+      "value": "\"expiration_time\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5371,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5401,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5419,
+      "length": 19,
+      "value": "\"Api-Key \""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 5437,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "Array",
+      "offset": 5610,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6312,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6347,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 7239,
+      "length": 12,
+      "value": "\"session_id\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 7267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 7305,
+      "length": 8,
+      "value": "\"stcPay\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 10,
+      "value": "\"Ottu.HeaderView\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8047,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8097,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8124,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8152,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8203,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8232,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8377,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8430,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/Ottu.swift",
+      "kind": "StringLiteral",
+      "offset": 8460,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/My Own\/ottu_ios\/ViewControllers\/RedirectWebViewScreen\/WebViewWithSocket.swift",
