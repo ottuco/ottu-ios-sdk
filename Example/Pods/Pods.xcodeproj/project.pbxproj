@@ -14,7 +14,7 @@
 				D9A939E19AA5BDBB5A586574FEBDD14A /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				BA40056705276A3143A12CD75284FFD3 /* PBXTargetDependency */,
+				508E105DAF8C64C22C825847F8F525ED /* PBXTargetDependency */,
 			);
 			name = Ottu;
 		};
@@ -22,79 +22,91 @@
 
 /* Begin PBXBuildFile section */
 		164FDC2725922F34C1BC1C10265168D2 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C594F54C6A5E72D8285A8D3B380FADB /* apple_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CE71D9F6F16C2C0941FD931BBCDC4F /* apple_button.png */; };
+		37C8931B0EAD4924B4BC636106ADA3BC /* ApplePayButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD1BA15EFEB494404FCA219FA2630E /* ApplePayButton-dummy.m */; };
+		3D9371A16A045D0117971D4FAE7AA351 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843E9F4C6502CC42D6144FFB2A50B6C /* ApplePayButton.swift */; };
+		3EC21BE97529FCA628756F009C0FF0BD /* ApplePayButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6C3EB7F467D0A9A855CA69E18C1583 /* ApplePayButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54B85BF1A1CD51BEF570FB9A8D357C2C /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+		7D7D1CE227D4859EC4C460E410CCF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7FAE1FE426CAED11E8C00A701243D236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		84B1020F9C3D30BA1CF1365E8D70BCB8 /* ApplePayButton-AppleButton in Resources */ = {isa = PBXBuildFile; fileRef = CC1069ABA07E7C9849A91505D9C7EB49 /* ApplePayButton-AppleButton */; };
-		8A6261B489B47E60E7BE85E4B83E662F /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3344A883FBEE52547B584EF7C77711 /* ApplePayButton.swift */; };
-		A796A87B090BBBE5029848FC5E06AB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BA11A0347EEC84838C831B6306E89538 /* ApplePayButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 138AAD3FD2461CE01F99FCF17321AF21 /* ApplePayButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D056400EA065A8BCF11E9F2C87CCEFB2 /* ApplePayButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F97C14BF76E85B9B6EAAD12E4B14560A /* ApplePayButton-dummy.m */; };
+		9C1311BAE00AA68F719233459ABDC6B0 /* apple_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D5169A17239450FCD8070ADDB85605FD /* apple_button.png */; };
+		C44B7AEC8F690987AE54DDD97643F63C /* stc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B43A8ADED70BD8B8485F43585E9A0F /* stc_button.png */; };
+		D5C7A69B64E8E6D4694EA41457AAA554 /* ApplePayButton-AppleButton in Resources */ = {isa = PBXBuildFile; fileRef = CC1069ABA07E7C9849A91505D9C7EB49 /* ApplePayButton-AppleButton */; };
+		DF5517A7DF2B49B8B2A395C3498D5C4C /* STCPayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64BB9D967693C45D6D0B2AC092B1F /* STCPayButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0837282D53EC04B8D3443A71CBC48000 /* PBXContainerItemProxy */ = {
+		4EC7323D0E1D7DF7ACDBD34C4C6A2C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA24542D3F03E33C681F510A0B98ECF;
+			remoteInfo = ApplePayButton;
+		};
+		5755903026FEDB114665A56623E14D75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 112B80BE07E1A1649950E78A641E6832;
 			remoteInfo = "ApplePayButton-AppleButton";
 		};
-		086B2DAE06302C57D6FD079C87F43606 /* PBXContainerItemProxy */ = {
+		B30F44FE8C7F4277AF1370732D1ED0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA24542D3F03E33C681F510A0B98ECF;
+			remoteInfo = ApplePayButton;
+		};
+		FC154E680F1C77050E75C46E5EF660EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C09C840EAF5253A08EAB02DBAF54A556;
 			remoteInfo = Ottu;
 		};
-		462A1EBB25F070C32A70C58D1819548D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FA24542D3F03E33C681F510A0B98ECF;
-			remoteInfo = ApplePayButton;
-		};
-		C28EA7BE6DB24CE0013A04CFDBE8EB1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FA24542D3F03E33C681F510A0B98ECF;
-			remoteInfo = ApplePayButton;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138AAD3FD2461CE01F99FCF17321AF21 /* ApplePayButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApplePayButton-umbrella.h"; sourceTree = "<group>"; };
+		01FD1BA15EFEB494404FCA219FA2630E /* ApplePayButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApplePayButton-dummy.m"; sourceTree = "<group>"; };
+		06A64BB9D967693C45D6D0B2AC092B1F /* STCPayButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STCPayButton.swift; path = Source/STCPayButton.swift; sourceTree = "<group>"; };
 		1EC6014AFCF0063BDE34A771223BD5C6 /* ApplePayButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApplePayButton; path = ApplePayButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B6C3EB7F467D0A9A855CA69E18C1583 /* ApplePayButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApplePayButton-umbrella.h"; sourceTree = "<group>"; };
+		2C577945E1C8CB428B05622D8A93935E /* ResourceBundle-AppleButton-ApplePayButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppleButton-ApplePayButton-Info.plist"; sourceTree = "<group>"; };
+		2C726E797D7FE8EE5F1C8C617722FF24 /* Ottu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.release.xcconfig; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A1786B0563C0B08E3CCD9137E2CE0D9 /* Ottu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.release.xcconfig; sourceTree = "<group>"; };
-		584224125A0BCECE4E1DC02DB7F32D9D /* Ottu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.debug.xcconfig; sourceTree = "<group>"; };
-		6931B36950E38413E3AF565367EF483A /* ApplePayButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApplePayButton.release.xcconfig; sourceTree = "<group>"; };
+		45B43A8ADED70BD8B8485F43585E9A0F /* stc_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stc_button.png; path = Source/stc_button.png; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		88CE71D9F6F16C2C0941FD931BBCDC4F /* apple_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apple_button.png; path = Source/apple_button.png; sourceTree = "<group>"; };
-		92A2CAD75AAD3F5CDF33C90082EF66EB /* Ottu-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ottu-xcframeworks.sh"; sourceTree = "<group>"; };
-		99D397EBB9C3E6D1DBD201A3FF408B0E /* ApplePayButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApplePayButton.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8C9767526F975AD7F348FE837BB9D91 /* Ottu.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Ottu.xcframework; path = Source/Ottu.xcframework; sourceTree = "<group>"; };
+		A635B80A0FDC58EC47D17D630D20AC4B /* Ottu.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Ottu.xcframework; path = Source/Ottu.xcframework; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA058F20A36FA518E7A8EAC57467DED0 /* ApplePayButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ApplePayButton-Info.plist"; sourceTree = "<group>"; };
+		B865C27A9ECF2E44044279EE869FFEBB /* ApplePayButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ApplePayButton-Info.plist"; sourceTree = "<group>"; };
+		B8DCBE00059F3E7FB9E61C5FEB9E33BE /* ApplePayButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApplePayButton.release.xcconfig; sourceTree = "<group>"; };
+		C488B6EC817776794B3A497A4B387BC5 /* ApplePayButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApplePayButton-prefix.pch"; sourceTree = "<group>"; };
+		C92723543249B125EAC0A9462A0563E9 /* Ottu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ottu.debug.xcconfig; sourceTree = "<group>"; };
 		CC1069ABA07E7C9849A91505D9C7EB49 /* ApplePayButton-AppleButton */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ApplePayButton-AppleButton"; path = AppleButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51437CAC77492E6339ECD6A1F3F38A0 /* ApplePayButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApplePayButton-prefix.pch"; sourceTree = "<group>"; };
+		D5169A17239450FCD8070ADDB85605FD /* apple_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apple_button.png; path = Source/apple_button.png; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DC878F2207C9231A361510A9D51EF8A5 /* ResourceBundle-AppleButton-ApplePayButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppleButton-ApplePayButton-Info.plist"; sourceTree = "<group>"; };
+		DC41288D5981886713E6FDFAF0DF2806 /* ApplePayButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplePayButton.modulemap; sourceTree = "<group>"; };
+		E16462A3755BD1F6737ADF776EB15416 /* ApplePayButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApplePayButton.debug.xcconfig; sourceTree = "<group>"; };
+		E843E9F4C6502CC42D6144FFB2A50B6C /* ApplePayButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayButton.swift; path = Source/ApplePayButton.swift; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F4710EEFC5B7DE4C3A072C301BA6AB88 /* ApplePayButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplePayButton.modulemap; sourceTree = "<group>"; };
-		F97C14BF76E85B9B6EAAD12E4B14560A /* ApplePayButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApplePayButton-dummy.m"; sourceTree = "<group>"; };
-		FE3344A883FBEE52547B584EF7C77711 /* ApplePayButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayButton.swift; path = Source/ApplePayButton.swift; sourceTree = "<group>"; };
+		F6E62F724D7FBCA8CAF2832E3DF99EDE /* Ottu-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ottu-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7AB8AAE7C55DB84CEDEAC021784D8718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7D1CE227D4859EC4C460E410CCF532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D4D6CC8801ACA17EACB4B5EE5AD3182 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,15 +115,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99A908CCF2ED2644AA447AFF02574695 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A796A87B090BBBE5029848FC5E06AB52 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E49A3D015213D4906C6C0CBFD64C0A70 /* Frameworks */ = {
+		C0D6EF1C63DFFD00C97BFAE84C2FCE1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,20 +125,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30C49CB25A16FB386A04D8AC0BF60A41 /* Support Files */ = {
+		10DE321445B6BFB989A06D0C95B220D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4710EEFC5B7DE4C3A072C301BA6AB88 /* ApplePayButton.modulemap */,
-				F97C14BF76E85B9B6EAAD12E4B14560A /* ApplePayButton-dummy.m */,
-				CA058F20A36FA518E7A8EAC57467DED0 /* ApplePayButton-Info.plist */,
-				D51437CAC77492E6339ECD6A1F3F38A0 /* ApplePayButton-prefix.pch */,
-				138AAD3FD2461CE01F99FCF17321AF21 /* ApplePayButton-umbrella.h */,
-				99D397EBB9C3E6D1DBD201A3FF408B0E /* ApplePayButton.debug.xcconfig */,
-				6931B36950E38413E3AF565367EF483A /* ApplePayButton.release.xcconfig */,
-				DC878F2207C9231A361510A9D51EF8A5 /* ResourceBundle-AppleButton-ApplePayButton-Info.plist */,
+				FAB1CBE26AEB69A5BC893CD22629D820 /* ApplePayButton */,
+				8A41E4F1783509C9EFC774C3ABDD9A9F /* Ottu */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ApplePayButton";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D0F83E4D9502AEC230DBFF03AAE4F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A635B80A0FDC58EC47D17D630D20AC4B /* Ottu.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -145,21 +150,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8738C90ED4D9FD6E9D9D451D77E62A70 /* Resources */ = {
+		6006F20B24F2AABD194F8E59BC27F9F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				88CE71D9F6F16C2C0941FD931BBCDC4F /* apple_button.png */,
+				D5169A17239450FCD8070ADDB85605FD /* apple_button.png */,
+				45B43A8ADED70BD8B8485F43585E9A0F /* stc_button.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9A0686CA49D451FD0238E782F3899E94 /* Pods */ = {
+		8A41E4F1783509C9EFC774C3ABDD9A9F /* Ottu */ = {
 			isa = PBXGroup;
 			children = (
-				AAC885E16C3B23D19503046F4CEF57A7 /* ApplePayButton */,
-				A60F210C81DBB320916BEE4C1C619A4C /* Ottu */,
+				4D0F83E4D9502AEC230DBFF03AAE4F3C /* Frameworks */,
+				BD00F786CC19F865454E271CEE83306B /* Support Files */,
 			);
-			name = Pods;
+			name = Ottu;
+			path = Ottu;
+			sourceTree = "<group>";
+		};
+		95413D06EBB30DABCCFCD5F95911E69C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC41288D5981886713E6FDFAF0DF2806 /* ApplePayButton.modulemap */,
+				01FD1BA15EFEB494404FCA219FA2630E /* ApplePayButton-dummy.m */,
+				B865C27A9ECF2E44044279EE869FFEBB /* ApplePayButton-Info.plist */,
+				C488B6EC817776794B3A497A4B387BC5 /* ApplePayButton-prefix.pch */,
+				2B6C3EB7F467D0A9A855CA69E18C1583 /* ApplePayButton-umbrella.h */,
+				E16462A3755BD1F6737ADF776EB15416 /* ApplePayButton.debug.xcconfig */,
+				B8DCBE00059F3E7FB9E61C5FEB9E33BE /* ApplePayButton.release.xcconfig */,
+				2C577945E1C8CB428B05622D8A93935E /* ResourceBundle-AppleButton-ApplePayButton-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ApplePayButton";
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -189,44 +212,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A60F210C81DBB320916BEE4C1C619A4C /* Ottu */ = {
+		BD00F786CC19F865454E271CEE83306B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDE9561CC846F22B68AB26E4A087679C /* Frameworks */,
-				A6ECEB11234D5662CA84535CFA6FDF73 /* Support Files */,
-			);
-			name = Ottu;
-			path = Ottu;
-			sourceTree = "<group>";
-		};
-		A6ECEB11234D5662CA84535CFA6FDF73 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92A2CAD75AAD3F5CDF33C90082EF66EB /* Ottu-xcframeworks.sh */,
-				584224125A0BCECE4E1DC02DB7F32D9D /* Ottu.debug.xcconfig */,
-				4A1786B0563C0B08E3CCD9137E2CE0D9 /* Ottu.release.xcconfig */,
+				F6E62F724D7FBCA8CAF2832E3DF99EDE /* Ottu-xcframeworks.sh */,
+				C92723543249B125EAC0A9462A0563E9 /* Ottu.debug.xcconfig */,
+				2C726E797D7FE8EE5F1C8C617722FF24 /* Ottu.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Ottu";
-			sourceTree = "<group>";
-		};
-		AAC885E16C3B23D19503046F4CEF57A7 /* ApplePayButton */ = {
-			isa = PBXGroup;
-			children = (
-				FE3344A883FBEE52547B584EF7C77711 /* ApplePayButton.swift */,
-				8738C90ED4D9FD6E9D9D451D77E62A70 /* Resources */,
-				30C49CB25A16FB386A04D8AC0BF60A41 /* Support Files */,
-			);
-			name = ApplePayButton;
-			path = ApplePayButton;
-			sourceTree = "<group>";
-		};
-		CDE9561CC846F22B68AB26E4A087679C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A8C9767526F975AD7F348FE837BB9D91 /* Ottu.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -242,7 +236,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9A0686CA49D451FD0238E782F3899E94 /* Pods */,
+				10DE321445B6BFB989A06D0C95B220D3 /* Pods */,
 				A21492879929449C559D7EC34CE78F00 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -256,22 +250,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FAB1CBE26AEB69A5BC893CD22629D820 /* ApplePayButton */ = {
+			isa = PBXGroup;
+			children = (
+				E843E9F4C6502CC42D6144FFB2A50B6C /* ApplePayButton.swift */,
+				06A64BB9D967693C45D6D0B2AC092B1F /* STCPayButton.swift */,
+				6006F20B24F2AABD194F8E59BC27F9F6 /* Resources */,
+				95413D06EBB30DABCCFCD5F95911E69C /* Support Files */,
+			);
+			name = ApplePayButton;
+			path = ApplePayButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		07F29A2C7A638F4B9D880D57F7968B68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC21BE97529FCA628756F009C0FF0BD /* ApplePayButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		564B653FDD58EDC3EF0CEE0F7247FB3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				164FDC2725922F34C1BC1C10265168D2 /* Pods-Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C80E4C738E8DF74A3850B3EC70D82F7A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA11A0347EEC84838C831B6306E89538 /* ApplePayButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +296,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				27908DE0B0B99E50F9F1040FF3AF869E /* PBXTargetDependency */,
-				07F6B8466CDBC2804C1D99AF9859EFDB /* PBXTargetDependency */,
+				AA24BDADA4CB61B52AE24789C0D8BD6F /* PBXTargetDependency */,
+				E0B6FAA84BF9B3D12EE1F3F906B86A51 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -300,11 +306,11 @@
 		};
 		112B80BE07E1A1649950E78A641E6832 /* ApplePayButton-AppleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9F7680A79848A9084918F18BE096D73 /* Build configuration list for PBXNativeTarget "ApplePayButton-AppleButton" */;
+			buildConfigurationList = 39FA7E9EA5D9E4436E020370DF31542D /* Build configuration list for PBXNativeTarget "ApplePayButton-AppleButton" */;
 			buildPhases = (
-				8F8297C12685602C83EE9B3890DF44D6 /* Sources */,
-				E49A3D015213D4906C6C0CBFD64C0A70 /* Frameworks */,
-				7E31C35A03C2954C020A60F8A7068CB8 /* Resources */,
+				AB5212E46073717F9D57D6F7F2B68FCA /* Sources */,
+				C0D6EF1C63DFFD00C97BFAE84C2FCE1B /* Frameworks */,
+				90DF348FB5301C27C3B64A39290CF9BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,17 +323,17 @@
 		};
 		1FA24542D3F03E33C681F510A0B98ECF /* ApplePayButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63BE4D2FE212525B722900976230A313 /* Build configuration list for PBXNativeTarget "ApplePayButton" */;
+			buildConfigurationList = 6DEAA6A43AA2639A31C90C168D6D3B5C /* Build configuration list for PBXNativeTarget "ApplePayButton" */;
 			buildPhases = (
-				C80E4C738E8DF74A3850B3EC70D82F7A /* Headers */,
-				503DB433E5A7D6F81CCAFAA6B79C8173 /* Sources */,
-				99A908CCF2ED2644AA447AFF02574695 /* Frameworks */,
-				0D8EE623C04AB9977C1E3F46A5FC8B15 /* Resources */,
+				07F29A2C7A638F4B9D880D57F7968B68 /* Headers */,
+				0E6282B9144AEB3171429A12E06AB6D5 /* Sources */,
+				7AB8AAE7C55DB84CEDEAC021784D8718 /* Frameworks */,
+				7A6738C8E18A6178740476EE3D38090C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42ECC6E30134B0469056582DF91CDA8F /* PBXTargetDependency */,
+				4B0D957F27845097605D512831B3E0CA /* PBXTargetDependency */,
 			);
 			name = ApplePayButton;
 			productName = ApplePayButton;
@@ -365,19 +371,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D8EE623C04AB9977C1E3F46A5FC8B15 /* Resources */ = {
+		7A6738C8E18A6178740476EE3D38090C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B1020F9C3D30BA1CF1365E8D70BCB8 /* ApplePayButton-AppleButton in Resources */,
+				D5C7A69B64E8E6D4694EA41457AAA554 /* ApplePayButton-AppleButton in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E31C35A03C2954C020A60F8A7068CB8 /* Resources */ = {
+		90DF348FB5301C27C3B64A39290CF9BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C594F54C6A5E72D8285A8D3B380FADB /* apple_button.png in Resources */,
+				9C1311BAE00AA68F719233459ABDC6B0 /* apple_button.png in Resources */,
+				C44B7AEC8F690987AE54DDD97643F63C /* stc_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,19 +418,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		503DB433E5A7D6F81CCAFAA6B79C8173 /* Sources */ = {
+		0E6282B9144AEB3171429A12E06AB6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6261B489B47E60E7BE85E4B83E662F /* ApplePayButton.swift in Sources */,
-				D056400EA065A8BCF11E9F2C87CCEFB2 /* ApplePayButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F8297C12685602C83EE9B3890DF44D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3D9371A16A045D0117971D4FAE7AA351 /* ApplePayButton.swift in Sources */,
+				37C8931B0EAD4924B4BC636106ADA3BC /* ApplePayButton-dummy.m in Sources */,
+				DF5517A7DF2B49B8B2A395C3498D5C4C /* STCPayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,32 +436,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB5212E46073717F9D57D6F7F2B68FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07F6B8466CDBC2804C1D99AF9859EFDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Ottu;
-			target = C09C840EAF5253A08EAB02DBAF54A556 /* Ottu */;
-			targetProxy = 086B2DAE06302C57D6FD079C87F43606 /* PBXContainerItemProxy */;
-		};
-		27908DE0B0B99E50F9F1040FF3AF869E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ApplePayButton;
-			target = 1FA24542D3F03E33C681F510A0B98ECF /* ApplePayButton */;
-			targetProxy = C28EA7BE6DB24CE0013A04CFDBE8EB1C /* PBXContainerItemProxy */;
-		};
-		42ECC6E30134B0469056582DF91CDA8F /* PBXTargetDependency */ = {
+		4B0D957F27845097605D512831B3E0CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ApplePayButton-AppleButton";
 			target = 112B80BE07E1A1649950E78A641E6832 /* ApplePayButton-AppleButton */;
-			targetProxy = 0837282D53EC04B8D3443A71CBC48000 /* PBXContainerItemProxy */;
+			targetProxy = 5755903026FEDB114665A56623E14D75 /* PBXContainerItemProxy */;
 		};
-		BA40056705276A3143A12CD75284FFD3 /* PBXTargetDependency */ = {
+		508E105DAF8C64C22C825847F8F525ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ApplePayButton;
 			target = 1FA24542D3F03E33C681F510A0B98ECF /* ApplePayButton */;
-			targetProxy = 462A1EBB25F070C32A70C58D1819548D /* PBXContainerItemProxy */;
+			targetProxy = B30F44FE8C7F4277AF1370732D1ED0A5 /* PBXContainerItemProxy */;
+		};
+		AA24BDADA4CB61B52AE24789C0D8BD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApplePayButton;
+			target = 1FA24542D3F03E33C681F510A0B98ECF /* ApplePayButton */;
+			targetProxy = 4EC7323D0E1D7DF7ACDBD34C4C6A2C91 /* PBXContainerItemProxy */;
+		};
+		E0B6FAA84BF9B3D12EE1F3F906B86A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ottu;
+			target = C09C840EAF5253A08EAB02DBAF54A556 /* Ottu */;
+			targetProxy = FC154E680F1C77050E75C46E5EF660EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -502,80 +510,9 @@
 			};
 			name = Debug;
 		};
-		0BF256005EADB7FE0AABF6C5604780FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6931B36950E38413E3AF565367EF483A /* ApplePayButton.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ApplePayButton/ApplePayButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ApplePayButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ApplePayButton/ApplePayButton.modulemap";
-				PRODUCT_MODULE_NAME = ApplePayButton;
-				PRODUCT_NAME = ApplePayButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		10DA4DF879E6353A1FDE2AF6A76F9502 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99D397EBB9C3E6D1DBD201A3FF408B0E /* ApplePayButton.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ApplePayButton/ApplePayButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ApplePayButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ApplePayButton/ApplePayButton.modulemap";
-				PRODUCT_MODULE_NAME = ApplePayButton;
-				PRODUCT_NAME = ApplePayButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		18088D246EFB35441E1DBCFCDD0FA76E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 584224125A0BCECE4E1DC02DB7F32D9D /* Ottu.debug.xcconfig */;
+			baseConfigurationReference = C92723543249B125EAC0A9462A0563E9 /* Ottu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -628,9 +565,9 @@
 			};
 			name = Release;
 		};
-		6D28E8DA8B15D0508EA3C30CD0524266 /* Release */ = {
+		781284E69B68082C312E77474D1B4A77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6931B36950E38413E3AF565367EF483A /* ApplePayButton.release.xcconfig */;
+			baseConfigurationReference = B8DCBE00059F3E7FB9E61C5FEB9E33BE /* ApplePayButton.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ApplePayButton";
@@ -644,6 +581,41 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		7C1AF8FC69AC0F8EDF8000B4C06AAC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16462A3755BD1F6737ADF776EB15416 /* ApplePayButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApplePayButton/ApplePayButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ApplePayButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ApplePayButton/ApplePayButton.modulemap";
+				PRODUCT_MODULE_NAME = ApplePayButton;
+				PRODUCT_NAME = ApplePayButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -773,9 +745,62 @@
 			};
 			name = Release;
 		};
+		A8C897770BC3FA0D32790E2E0F2DAF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16462A3755BD1F6737ADF776EB15416 /* ApplePayButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ApplePayButton";
+				IBSC_MODULE = ApplePayButton;
+				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ResourceBundle-AppleButton-ApplePayButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B35E1EBE62CA89DA6FEBBFFD30FACCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8DCBE00059F3E7FB9E61C5FEB9E33BE /* ApplePayButton.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApplePayButton/ApplePayButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ApplePayButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ApplePayButton/ApplePayButton.modulemap";
+				PRODUCT_MODULE_NAME = ApplePayButton;
+				PRODUCT_NAME = ApplePayButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D8FF3D0F4CC1B8873B25715EF1CA1413 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A1786B0563C0B08E3CCD9137E2CE0D9 /* Ottu.release.xcconfig */;
+			baseConfigurationReference = 2C726E797D7FE8EE5F1C8C617722FF24 /* Ottu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -791,26 +816,18 @@
 			};
 			name = Release;
 		};
-		FA122ADFF6F1A7C09560929BE6B67ECD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99D397EBB9C3E6D1DBD201A3FF408B0E /* ApplePayButton.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ApplePayButton";
-				IBSC_MODULE = ApplePayButton;
-				INFOPLIST_FILE = "Target Support Files/ApplePayButton/ResourceBundle-AppleButton-ApplePayButton-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = AppleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		39FA7E9EA5D9E4436E020370DF31542D /* Build configuration list for PBXNativeTarget "ApplePayButton-AppleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C897770BC3FA0D32790E2E0F2DAF3C /* Debug */,
+				781284E69B68082C312E77474D1B4A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -838,20 +855,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63BE4D2FE212525B722900976230A313 /* Build configuration list for PBXNativeTarget "ApplePayButton" */ = {
+		6DEAA6A43AA2639A31C90C168D6D3B5C /* Build configuration list for PBXNativeTarget "ApplePayButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10DA4DF879E6353A1FDE2AF6A76F9502 /* Debug */,
-				0BF256005EADB7FE0AABF6C5604780FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9F7680A79848A9084918F18BE096D73 /* Build configuration list for PBXNativeTarget "ApplePayButton-AppleButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA122ADFF6F1A7C09560929BE6B67ECD /* Debug */,
-				6D28E8DA8B15D0508EA3C30CD0524266 /* Release */,
+				7C1AF8FC69AC0F8EDF8000B4C06AAC25 /* Debug */,
+				B35E1EBE62CA89DA6FEBBFFD30FACCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

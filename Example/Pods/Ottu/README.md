@@ -83,9 +83,9 @@ class ViewController: UIViewController,OttuDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Intiate the SDK accordingly after getting session id from the public API documentation.
-        //session_id - It is generated when payment was created. See API documentation
+        //session_id - It is generated when payment was created. [See API documentation](https://docs.ottu.com/developer/checkout-api)
         //merchant_id - Merchant domain. See API documentation.
-        //apiKey - API Public key should be used. See API documentation.
+        //apiKey - API Public key should be used. [See API documentation](https://docs.ottu.com/user-guide/configuration/how-to-get-api-keys). 
         //lang - You can use it to change the language. We support two languages english and arabic. You can use "en" for english and "ar" for arabic.        
         let session_id = "ENTER_YOUR_SESSION_ID"
         _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar", viewController: self, delegate: self)

@@ -31,3 +31,11 @@ public class Ottu {
   public init(_ session_id: Swift.String, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", formsOfPayment: [Swift.String]? = nil, viewController: UIKit.UIViewController, delegate: any OttuDelegate)
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class HeaderView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, params: OttuParameters, merchant_id: Swift.String, apiKey: Swift.String, lang: Swift.String = "en", formsOfPayment: [Swift.String]? = nil, viewController: UIKit.UIViewController, delegate: any OttuDelegate)
+  @objc deinit
+}
+public class OttuParameters {
+  public init(type: Swift.String = "", pg_codes: [Swift.String] = [String](), amount: Swift.String = "", currency_code: Swift.String = "", disclosure_url: Swift.String = "", redirect_url: Swift.String = "", customer_id: Swift.String = "", expiration_time: Swift.String = "")
+  @objc deinit
+}

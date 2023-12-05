@@ -30,7 +30,8 @@ class ViewController: UIViewController {
     var Base_URL = "BASE_URL"
     var Disclouser_URL = "DISCLOSURE_URL"
     var Redirect_URL = "REDIRECT_URL"
-
+    var PGCodes = [String]()
+    var CurrencyCode = "CURRENCY_CODE"
     
     //MARK: - VC Methods -
     override func viewDidLoad() {
@@ -41,9 +42,6 @@ class ViewController: UIViewController {
     
     //MARK: - IBActions -
     @IBAction func applePayButton(_ sender: Any) {
-    }
-    
-    @IBAction func startButton(_ sender: Any) {
         if Base_URL == "BASE_URL"{
             self.showAlert(title: "Validation Error", message: "Enter your base URL")
             return
@@ -54,6 +52,10 @@ class ViewController: UIViewController {
         }
         if Redirect_URL == "REDIRECT_URL"{
             self.showAlert(title: "Validation Error", message: "Enter your redirect URL")
+            return
+        }
+        if CurrencyCode == "CURRENCY_CODE"{
+            self.showAlert(title: "Validation Error", message: "Enter your currency code")
             return
         }
         if amountTF.isEmpty{
@@ -76,12 +78,138 @@ class ViewController: UIViewController {
             self.showAlert(title: "Validation Error", message: "Merchant ID cannot be empty")
             return
         }
+        if PGCodes.isEmpty{
+            self.showAlert(title: "Validation Error", message: "PGCodes cannot be empty")
+            return
+        }
         //TODO: - Set Paramters accordingly
         var params = [String : Any]()
         params["type"] = "e_commerce"
-        params["pg_codes"] = ["stc_pay"]//"ottu_pg_kwd_tkn",mpgs
+        params["pg_codes"] = PGCodes
         params["amount"] = amountTF.text ?? ""
-        params["currency_code"] = "KWD"
+        params["currency_code"] = CurrencyCode
+        params["disclosure_url"] = Disclouser_URL
+        params["redirect_url"] = Redirect_URL
+        params["customer_id"] = customerIdTF.text ?? ""
+        params["expiration_time"] = "30000"
+        
+        //TODO: - Set Headers accordingly
+        var headers = [String:String]()
+        headers["Authorization"] = "Api-Key \(apiKeyTF.text ?? "")"
+        headers["Content-Type"] = "application/json"
+
+        
+        getTokenApplePay(params: params, headers: headers,base_url :self.Base_URL)
+    }
+    
+    @IBAction func stcPayButton(_ sender: Any) {
+        if Base_URL == "BASE_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your base URL")
+            return
+        }
+        if Disclouser_URL == "DISCLOSURE_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your disclouser URL")
+            return
+        }
+        if Redirect_URL == "REDIRECT_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your redirect URL")
+            return
+        }
+        if CurrencyCode == "CURRENCY_CODE"{
+            self.showAlert(title: "Validation Error", message: "Enter your currency code")
+            return
+        }
+        if amountTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Amount cannot be empty")
+            return
+        }
+        if apiKeyTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "API key cannot be empty")
+            return
+        }
+        if customerIdTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Customer Id cannot be empty")
+            return
+        }
+        if languageTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "language should be en or ar")
+            return
+        }
+        if merchantIdTf.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Merchant ID cannot be empty")
+            return
+        }
+        if PGCodes.isEmpty{
+            self.showAlert(title: "Validation Error", message: "PGCodes cannot be empty")
+            return
+        }
+        //TODO: - Set Paramters accordingly
+        var params = [String : Any]()
+        params["type"] = "e_commerce"
+        params["pg_codes"] = PGCodes
+        params["amount"] = amountTF.text ?? ""
+        params["currency_code"] = CurrencyCode
+        params["disclosure_url"] = Disclouser_URL
+        params["redirect_url"] = Redirect_URL
+        params["customer_id"] = customerIdTF.text ?? ""
+        params["expiration_time"] = "30000"
+        
+        //TODO: - Set Headers accordingly
+        var headers = [String:String]()
+        headers["Authorization"] = "Api-Key \(apiKeyTF.text ?? "")"
+        headers["Content-Type"] = "application/json"
+
+        
+        getTokenSTCPay(params: params, headers: headers,base_url :self.Base_URL)
+    }
+    
+    @IBAction func startButton(_ sender: Any) {
+        if Base_URL == "BASE_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your base URL")
+            return
+        }
+        if Disclouser_URL == "DISCLOSURE_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your disclouser URL")
+            return
+        }
+        if Redirect_URL == "REDIRECT_URL"{
+            self.showAlert(title: "Validation Error", message: "Enter your redirect URL")
+            return
+        }
+        if CurrencyCode == "CURRENCY_CODE"{
+            self.showAlert(title: "Validation Error", message: "Enter your currency code")
+            return
+        }
+        if amountTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Amount cannot be empty")
+            return
+        }
+        if apiKeyTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "API key cannot be empty")
+            return
+        }
+        if customerIdTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Customer Id cannot be empty")
+            return
+        }
+        if languageTF.isEmpty{
+            self.showAlert(title: "Validation Error", message: "language should be en or ar")
+            return
+        }
+        if merchantIdTf.isEmpty{
+            self.showAlert(title: "Validation Error", message: "Merchant ID cannot be empty")
+            return
+        }
+        if PGCodes.isEmpty{
+            self.showAlert(title: "Validation Error", message: "PGCodes cannot be empty")
+            return
+        }
+        //TODO: - Set Paramters accordingly
+        var params = [String : Any]()
+        params["type"] = "e_commerce"
+        params["pg_codes"] = PGCodes
+        params["amount"] = amountTF.text ?? ""
+        params["currency_code"] = CurrencyCode
         params["disclosure_url"] = Disclouser_URL
         params["redirect_url"] = Redirect_URL
         params["customer_id"] = customerIdTF.text ?? ""
@@ -116,6 +244,26 @@ extension ViewController{
         Token.shared.getToken(params: params, headers: headers, base_URL: base_url) { success, sessionId, errorMessage in
             if success{
                 _ = Ottu.init(sessionId ?? "", merchant_id: self.merchantIdTf.text ?? "", apiKey: self.apiKeyTF.text ?? "" ,lang: self.languageTF.text ?? "", viewController: self, delegate: self)
+            }else{
+                self.showAlert(title: "Error", message: errorMessage ?? "")
+            }
+        }
+    }
+    
+    func getTokenApplePay(params:[String:Any],headers: [String:String],base_url:String){
+        Token.shared.getToken(params: params, headers: headers, base_URL: base_url) { success, sessionId, errorMessage in
+            if success{
+                _ = Ottu.init(sessionId ?? "", merchant_id: self.merchantIdTf.text ?? "", apiKey: self.apiKeyTF.text ?? "" ,lang: self.languageTF.text ?? "",formsOfPayment: ["applePay"], viewController: self, delegate: self)
+            }else{
+                self.showAlert(title: "Error", message: errorMessage ?? "")
+            }
+        }
+    }
+    
+    func getTokenSTCPay(params:[String:Any],headers: [String:String],base_url:String){
+        Token.shared.getToken(params: params, headers: headers, base_URL: base_url) { success, sessionId, errorMessage in
+            if success{
+                _ = Ottu.init(sessionId ?? "", merchant_id: self.merchantIdTf.text ?? "", apiKey: self.apiKeyTF.text ?? "" ,lang: self.languageTF.text ?? "",formsOfPayment: ["stcPay"], viewController: self, delegate: self)
             }else{
                 self.showAlert(title: "Error", message: errorMessage ?? "")
             }

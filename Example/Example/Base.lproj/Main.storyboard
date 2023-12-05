@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t6z-JF-dpj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t6z-JF-dpj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -75,19 +75,31 @@
                                     <action selector="applePayButton:" destination="t6z-JF-dpj" eventType="touchUpInside" id="WWn-HD-1uL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfK-OG-ezV" customClass="STCpayButton" customModule="ApplePayButton">
+                                <rect key="frame" x="20" y="542.5" width="374" height="34.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="applePayButton:" destination="t6z-JF-dpj" eventType="touchUpInside" id="tsq-ww-LsB"/>
+                                    <action selector="stcPayButton:" destination="t6z-JF-dpj" eventType="touchUpInside" id="He6-3t-zPn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1cr-iy-wOr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ALC-Nm-Cl7" firstAttribute="top" secondItem="1cr-iy-wOr" secondAttribute="top" constant="20" id="ItC-zg-OLe"/>
+                            <constraint firstItem="hfK-OG-ezV" firstAttribute="top" secondItem="yw5-2N-1Sb" secondAttribute="bottom" constant="20" id="JcE-N5-E7B"/>
                             <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="ex6-f3-nY2" secondAttribute="trailing" constant="20" id="M8s-yZ-Aav"/>
                             <constraint firstItem="ex6-f3-nY2" firstAttribute="top" secondItem="pOM-hA-5jh" secondAttribute="bottom" constant="20" id="Pnl-qm-ehi"/>
                             <constraint firstItem="pOM-hA-5jh" firstAttribute="top" secondItem="ALC-Nm-Cl7" secondAttribute="bottom" constant="20" id="Pu0-kU-fxx"/>
                             <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="pOM-hA-5jh" secondAttribute="trailing" constant="20" id="Vw2-hD-sDe"/>
                             <constraint firstItem="pOM-hA-5jh" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="aMb-zK-z7D"/>
+                            <constraint firstItem="hfK-OG-ezV" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="cdo-fV-wD5"/>
                             <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="ALC-Nm-Cl7" secondAttribute="trailing" constant="20" id="jN9-iA-utq"/>
                             <constraint firstItem="ALC-Nm-Cl7" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="jSY-O2-dl8"/>
                             <constraint firstItem="yw5-2N-1Sb" firstAttribute="top" secondItem="ex6-f3-nY2" secondAttribute="bottom" constant="20" id="jSy-IQ-EaT"/>
+                            <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="hfK-OG-ezV" secondAttribute="trailing" constant="20" id="mTO-7i-nPG"/>
                             <constraint firstItem="yw5-2N-1Sb" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="u2I-55-ps5"/>
                             <constraint firstItem="ex6-f3-nY2" firstAttribute="leading" secondItem="1cr-iy-wOr" secondAttribute="leading" constant="20" id="vJY-qu-TGK"/>
                             <constraint firstItem="1cr-iy-wOr" firstAttribute="trailing" secondItem="yw5-2N-1Sb" secondAttribute="trailing" constant="20" id="xuf-LC-ejJ"/>
@@ -109,6 +121,9 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="hfK-OG-ezV">
+            <size key="intrinsicContentSize" width="75" height="34.5"/>
+        </designable>
         <designable name="yw5-2N-1Sb">
             <size key="intrinsicContentSize" width="75" height="34.5"/>
         </designable>
