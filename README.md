@@ -88,7 +88,7 @@ class ViewController: UIViewController,OttuDelegate {
         //apiKey - API Public key should be used. [See API documentation](https://docs.ottu.com/user-guide/configuration/how-to-get-api-keys). 
         //lang - You can use it to change the language. We support two languages english and arabic. You can use "en" for english and "ar" for arabic.        
         let session_id = "ENTER_YOUR_SESSION_ID"
-        _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar", viewController: self, delegate: self)
+        _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar",formsOfPayment: ["stcPay OR applePay"],, viewController: self, delegate: self)
     }
     
     //The error callback is invoked when problems occur during a payment.
