@@ -88,7 +88,7 @@ class ViewController: UIViewController,OttuDelegate {
         //apiKey - API Public key should be used. [See API documentation](https://docs.ottu.com/user-guide/configuration/how-to-get-api-keys). 
         //lang - You can use it to change the language. We support two languages english and arabic. You can use "en" for english and "ar" for arabic.        
         let session_id = "ENTER_YOUR_SESSION_ID"
-        _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar",formsOfPayment: ["stcPay OR applePay"],, viewController: self, delegate: self)
+        _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar", viewController: self, delegate: self)
     }
     
     //The error callback is invoked when problems occur during a payment.
@@ -152,6 +152,26 @@ _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "
 
 
 **Note**: To inetgrate apple pay you need to enable apple pay in capabilites in your project. 
+
+
+## Inetgrate STC pay
+
+
+Please follow below steps to integrate apple pay button in storyboard
+<p float="left">
+<img src="Screens/step2.png" alt="ApplePay" align="center"/>
+    
+Now Create a action for the button and initalise the SDK with session id.
+
+```swift
+
+let session_id = "ENTER_YOUR_SESSION_ID"
+_ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar",formsOfPayment: ["stcPay"], viewController: self, delegate: self)
+
+```
+
+**Note**: You need to pass formsOfPayment as ["stcPay"]. If it is not passed then normal flow will start working.
+
 
 
 ## Licenses
