@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.author             = { "Maninder" => "er.maninderbindra@gmail.com" }
     s.source       = { :git => "https://github.com/ottuco/ottu-ios-sdk.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "Source/Ottu.xcframework"
-    s.dependency 'ApplePayButton'
+    s.dependency 'ApplePayButton', '1.0.3'
     s.platform = :ios
     s.swift_version = "5.0"
 
