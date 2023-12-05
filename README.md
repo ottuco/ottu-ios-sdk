@@ -159,7 +159,7 @@ _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "
 
 Please follow below steps to integrate stc pay button in storyboard
 <p float="left">
-<img src="Screens/step2.png" alt="ApplePay" align="center"/>
+<img src="Screens/step2.png" alt="STCPay" align="center"/>
     
 Now Create a action for the button and initalise the SDK with session id.
 
