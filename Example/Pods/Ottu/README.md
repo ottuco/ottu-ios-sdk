@@ -44,7 +44,7 @@ Installation
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Ottu', :git => 'https://github.com/ottuco/ottu-ios-sdk.git', :tag => '1.0.83'
+pod 'Ottu', :git => 'https://github.com/ottuco/ottu-ios-sdk.git', :tag => '1.0.85'
 ```
 
 #### Installation with Swift Package Manager
@@ -152,6 +152,26 @@ _ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "
 
 
 **Note**: To inetgrate apple pay you need to enable apple pay in capabilites in your project. 
+
+
+## Inetgrate STC pay
+
+
+Please follow below steps to integrate stc pay button in storyboard
+<p float="left">
+<img src="Screens/step2.png" alt="STCPay" align="center"/>
+    
+Now Create a action for the button and initalise the SDK with session id.
+
+```swift
+
+let session_id = "ENTER_YOUR_SESSION_ID"
+_ = Ottu.init(session_id, merchant_id: "MERCHANT_ID", apiKey: "API_KEY" ,lang: "ENTER_LANGUAGE_ID_en_or_ar",formsOfPayment: ["stcPay"], viewController: self, delegate: self)
+
+```
+
+**Note**: You need to pass formsOfPayment as ["stcPay"]. If it is not passed then normal flow will start working.
+
 
 
 ## Licenses
