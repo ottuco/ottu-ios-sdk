@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/Ottu.framework/ApplePayVC.nib</key>
 		<data>
-		6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+		AF9hf6Cds8BtcSVgp5ARCc67Rak=
 		</data>
 		<key>ios-arm64/Ottu.framework/Apple_Pay_logo.png</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>ios-arm64/Ottu.framework/CardCell.nib</key>
 		<data>
-		famJb/wgSwmb8S14uWe5+6m6gRk=
+		IIaScT62Ewp4uYPDbX6PDnKVSHA=
 		</data>
 		<key>ios-arm64/Ottu.framework/CustomPopupVC.nib</key>
 		<data>
-		sMb9+ub7Zc12VkkqhQuafNQkJjI=
+		yEbmpwG7ltI8HPebUYKFTLCRy4s=
 		</data>
 		<key>ios-arm64/Ottu.framework/DeletePopupVC.nib</key>
 		<data>
-		EnHZkIbM/LaIUftISvLsRQP1ImY=
+		NpPBEArN8OMaBAEN1VzovZy4580=
 		</data>
 		<key>ios-arm64/Ottu.framework/Headers/Ottu-Swift.h</key>
 		<data>
-		wswMHDcsHTIC6y6CdgYpC+wfGZU=
+		qmc+mrs1MjL3yiXHFKYgBW3zMZE=
 		</data>
 		<key>ios-arm64/Ottu.framework/Headers/Ottu.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/Ottu.framework/Info.plist</key>
 		<data>
-		Y8+4e11G/4CxmLGalfWZONyI7Nw=
+		mRlbDyWTCWGA/6xkywnqit4x7bs=
 		</data>
 		<key>ios-arm64/Ottu.framework/Mada.png</key>
 		<data>
@@ -46,43 +46,43 @@
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uGb1ElKAKpfmSeJZlPL+3fdikyo=
+		7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		nzQWyZy7UIyPQaRsogSfkY5nXqU=
+		2GYiOE7REgm1ta3HoeefYjW1HEo=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.private.swiftinterface-e</key>
 		<data>
-		0Vw1OUBjXHwCGmhIpSAOHmhZIfs=
+		NJrFPWRbApn7ULRBTP3K/FtMp08=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		+7bNGGIVTW1V7z3g0ZwJX0M4xmQ=
+		I9Jubdyh0qsFjFEB1afE8bnLIlI=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nzQWyZy7UIyPQaRsogSfkY5nXqU=
+		2GYiOE7REgm1ta3HoeefYjW1HEo=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftinterface-e</key>
 		<data>
-		0Vw1OUBjXHwCGmhIpSAOHmhZIfs=
+		NJrFPWRbApn7ULRBTP3K/FtMp08=
 		</data>
 		<key>ios-arm64/Ottu.framework/Modules/module.modulemap</key>
 		<data>
-		TVjTxvRr+lbOfBK8D4Irn0MQJN8=
+		fdMj/Hd3WYGjctNu8m0WMWJhqAk=
 		</data>
 		<key>ios-arm64/Ottu.framework/NewCardCell.nib</key>
 		<data>
-		SzjIRPmVUIoWJHDu+mPjKFW9pLQ=
+		fPu1YFBmsZ7sje5g+jKHc6jhJEI=
 		</data>
 		<key>ios-arm64/Ottu.framework/Ottu</key>
 		<data>
-		JjEoyYF1Ybo5s40lPQdw8JX3sZU=
+		rbCio+vbfig4WLCp26HX2rhzLQk=
 		</data>
 		<key>ios-arm64/Ottu.framework/PaymentVC.nib</key>
 		<data>
-		I8ChM3pP6o8RUftvxRu86VwpxCk=
+		5iDJAlOFf+KjsJhaUTxDjrZdLzo=
 		</data>
 		<key>ios-arm64/Ottu.framework/SF-Pro-Text-Bold.otf</key>
 		<data>
@@ -102,19 +102,19 @@
 		</data>
 		<key>ios-arm64/Ottu.framework/STCMobilePopupVC.nib</key>
 		<data>
-		aewcwzInCYVpdQizEMXq3/R2qYg=
+		HpWzOP/Fn+3VrIftZeuJzeYTH5I=
 		</data>
 		<key>ios-arm64/Ottu.framework/STCPayVC.nib</key>
 		<data>
-		6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+		AF9hf6Cds8BtcSVgp5ARCc67Rak=
 		</data>
 		<key>ios-arm64/Ottu.framework/WebView.nib</key>
 		<data>
-		GphOk1lED0ohucNxezV+gwkoRuQ=
+		vHPmwx11Or8AM/dfdtkCwkUXbnw=
 		</data>
 		<key>ios-arm64/Ottu.framework/WebViewWithSocket.nib</key>
 		<data>
-		+kFYYN2sE8YrHQfjQoTgTFb4+9k=
+		/fwSEiXvmvJys6Ajrrq7lZH4dMU=
 		</data>
 		<key>ios-arm64/Ottu.framework/amex.png</key>
 		<data>
@@ -248,11 +248,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/Ottu.framework.dSYM/Contents/Resources/DWARF/Ottu</key>
 		<data>
-		aaWujL5gfK8nj6HY5nnwQidlmfg=
+		D0dyAh56b1Ey0WXyCon8F/8GsEM=
+		</data>
+		<key>ios-arm64/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/aarch64/Ottu.yml</key>
+		<data>
+		QK8QbizpNkaRGQTlduQHBnegniQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/ApplePayVC.nib</key>
 		<data>
-		6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+		AF9hf6Cds8BtcSVgp5ARCc67Rak=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Apple_Pay_logo.png</key>
 		<data>
@@ -260,19 +264,19 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/CardCell.nib</key>
 		<data>
-		famJb/wgSwmb8S14uWe5+6m6gRk=
+		IIaScT62Ewp4uYPDbX6PDnKVSHA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/CustomPopupVC.nib</key>
 		<data>
-		sMb9+ub7Zc12VkkqhQuafNQkJjI=
+		yEbmpwG7ltI8HPebUYKFTLCRy4s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/DeletePopupVC.nib</key>
 		<data>
-		EnHZkIbM/LaIUftISvLsRQP1ImY=
+		NpPBEArN8OMaBAEN1VzovZy4580=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Headers/Ottu-Swift.h</key>
 		<data>
-		FMnjfwr3MjpLSI1kG8/FpSDn8DU=
+		UbDxFTuhEcAbcI0dC04Vil9z+7w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Headers/Ottu.h</key>
 		<data>
@@ -280,7 +284,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Info.plist</key>
 		<data>
-		xP6hdHCmU6FJeLOoqBFYbXKIfnI=
+		aLE44n/jkX3G86VysfEUeg40SnA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Mada.png</key>
 		<data>
@@ -292,67 +296,67 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uGb1ElKAKpfmSeJZlPL+3fdikyo=
+		7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		K/PMDU8UWd471l4NRvpxA5DJ4GA=
+		qAVUbqmfr3F/eqhEP7upg9ShQ1w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface-e</key>
 		<data>
-		0a4BXoM4LUtM0QEzhZt3CEPJTNk=
+		QPtwbgMZtLGxehWuP0bKR1iqhAg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		P0HLumeGoSoth5Cdu02IcGXdKps=
+		Irk8WQP8ao4CndQVphjaEgZsVjI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		K/PMDU8UWd471l4NRvpxA5DJ4GA=
+		qAVUbqmfr3F/eqhEP7upg9ShQ1w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftinterface-e</key>
 		<data>
-		0a4BXoM4LUtM0QEzhZt3CEPJTNk=
+		QPtwbgMZtLGxehWuP0bKR1iqhAg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uGb1ElKAKpfmSeJZlPL+3fdikyo=
+		7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2tyjdYYEyxDWJLyuxRhbfMODKlE=
+		qRTO7eFzTHTlSv1IZJSIEo9pPEw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface-e</key>
 		<data>
-		BaoKkYqDAC6JYC0rSrzbEjT+sLQ=
+		sSjZmZBh/pfKG7ctkKEX1ZqNaeI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qvPqgkKc4crXiSKK32T60xk2w7U=
+		Lgzl/sXep9/09g8Mho2ewWm2vPo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2tyjdYYEyxDWJLyuxRhbfMODKlE=
+		qRTO7eFzTHTlSv1IZJSIEo9pPEw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftinterface-e</key>
 		<data>
-		BaoKkYqDAC6JYC0rSrzbEjT+sLQ=
+		sSjZmZBh/pfKG7ctkKEX1ZqNaeI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/module.modulemap</key>
 		<data>
-		TVjTxvRr+lbOfBK8D4Irn0MQJN8=
+		fdMj/Hd3WYGjctNu8m0WMWJhqAk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/NewCardCell.nib</key>
 		<data>
-		SzjIRPmVUIoWJHDu+mPjKFW9pLQ=
+		fPu1YFBmsZ7sje5g+jKHc6jhJEI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Ottu</key>
 		<data>
-		T8XXXr8jFbeBGWIBtXvbuqhIsgs=
+		Cfth6KKELjjNCMx0c92EZQjCzcY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/PaymentVC.nib</key>
 		<data>
-		I8ChM3pP6o8RUftvxRu86VwpxCk=
+		5iDJAlOFf+KjsJhaUTxDjrZdLzo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/SF-Pro-Text-Bold.otf</key>
 		<data>
@@ -372,23 +376,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/STCMobilePopupVC.nib</key>
 		<data>
-		aewcwzInCYVpdQizEMXq3/R2qYg=
+		HpWzOP/Fn+3VrIftZeuJzeYTH5I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/STCPayVC.nib</key>
 		<data>
-		6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+		AF9hf6Cds8BtcSVgp5ARCc67Rak=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/WebView.nib</key>
 		<data>
-		GphOk1lED0ohucNxezV+gwkoRuQ=
+		vHPmwx11Or8AM/dfdtkCwkUXbnw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/WebViewWithSocket.nib</key>
 		<data>
-		+kFYYN2sE8YrHQfjQoTgTFb4+9k=
+		/fwSEiXvmvJys6Ajrrq7lZH4dMU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5T7mj/f6h8/yfVGjUA0lqwXwA/4=
+		L2ssmMcXykgWXqFBdKfZ2Otvqe4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/amex.png</key>
 		<data>
@@ -522,7 +526,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Ottu.framework.dSYM/Contents/Resources/DWARF/Ottu</key>
 		<data>
-		SvUUCh+KfRgXLsvK/pLcsh3EDdc=
+		HJ7fhGRCgwH5LPZvhW6CEZiCjTA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/aarch64/Ottu.yml</key>
+		<data>
+		NqOHaHyYLDPPe/ixB1wcq1t42z0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/x86_64/Ottu.yml</key>
+		<data>
+		sS/kTqcWUhzz7hqOnDkFFZK47JE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -531,11 +543,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+			AF9hf6Cds8BtcSVgp5ARCc67Rak=
 			</data>
 			<key>hash2</key>
 			<data>
-			9UchmwckWaZI3VRoDOxBKcPnShTHF0j2gqhl9+qKC2Y=
+			a7Lw5JbdpRNjLhNKA2wT9is1kkNL7fyBNt7varvPFyw=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Apple_Pay_logo.png</key>
@@ -553,44 +565,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			famJb/wgSwmb8S14uWe5+6m6gRk=
+			IIaScT62Ewp4uYPDbX6PDnKVSHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TqQSuV3ecLzLFcY72y0++RjEzruEZvPYuUmIUsS0jZ0=
+			8Yncla0xHZZA042Sy8pIcQUQTyOaRlFf2b16DbwuRb4=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/CustomPopupVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sMb9+ub7Zc12VkkqhQuafNQkJjI=
+			yEbmpwG7ltI8HPebUYKFTLCRy4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			1rwVrOAz26ZdQtZzBFPgzFGHzKK4rvml9RN4ljf2Fgg=
+			7NYr/tXIdbhdktcPoZggrzjmHaRTwsKQ+D6Sb6cWRDc=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/DeletePopupVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EnHZkIbM/LaIUftISvLsRQP1ImY=
+			NpPBEArN8OMaBAEN1VzovZy4580=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8+GvNzSwdODeM+v+cQ2oNygkUzb79t5/O8ZYRN+1Bk=
+			YyTAHETka45mlU3Ly2xvKOhG+poYnrFzpru8etq7D3A=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Headers/Ottu-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wswMHDcsHTIC6y6CdgYpC+wfGZU=
+			qmc+mrs1MjL3yiXHFKYgBW3zMZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rCZs9dnnoxZwSNz9n8KeskbyqRZbE/AoHkZCzAqsgn0=
+			5mICT2Zog//xEa73vi8U9mfb2AiuLpv8Zl2rdzn+qKo=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Headers/Ottu.h</key>
@@ -608,11 +620,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y8+4e11G/4CxmLGalfWZONyI7Nw=
+			mRlbDyWTCWGA/6xkywnqit4x7bs=
 			</data>
 			<key>hash2</key>
 			<data>
-			5eLi6l0F6Z6/ySGDmuaAluCE4Gtlg9nLK+l2sPWCAA0=
+			WvfxV7Uxh8qkKKlH1Mpba2X0MeYsheOK++35H8nm0Js=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Mada.png</key>
@@ -641,110 +653,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGb1ElKAKpfmSeJZlPL+3fdikyo=
+			7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ZbtA3WpObYZGDrgMF5/aCuC50GhzwNEN9LRU0PcpuI=
+			H3KBsXl4nwNmhZDmE1qXhfdkZbA0Ac3mZxAbmiZXAhE=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nzQWyZy7UIyPQaRsogSfkY5nXqU=
+			2GYiOE7REgm1ta3HoeefYjW1HEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			km2MHe8J4xwYkdLaQTBYWx0Mb9gyb3+o9CmpnIHzeO4=
+			gxYWq1PDe9fpguKXBorTlRheOJYOe672J0tUuP2QX70=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.private.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Vw1OUBjXHwCGmhIpSAOHmhZIfs=
+			NJrFPWRbApn7ULRBTP3K/FtMp08=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYaLGE1Iqd48WjEU+KIjWID54Vmk4JqK1CkLyhxkAtY=
+			tr9ySNn6YCxEAEet/AfgoGI0zLh2gT3NBoUX0EsoVEQ=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7bNGGIVTW1V7z3g0ZwJX0M4xmQ=
+			I9Jubdyh0qsFjFEB1afE8bnLIlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5rKyG84lsloG7hQgQTcKQUD4CNV6pg+X2CM6Jw1iXlU=
+			Vcl2HHa9iBMiNqYPkxDQSbfJWr3KlnnyjU5J6zSo5jo=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nzQWyZy7UIyPQaRsogSfkY5nXqU=
+			2GYiOE7REgm1ta3HoeefYjW1HEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			km2MHe8J4xwYkdLaQTBYWx0Mb9gyb3+o9CmpnIHzeO4=
+			gxYWq1PDe9fpguKXBorTlRheOJYOe672J0tUuP2QX70=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Vw1OUBjXHwCGmhIpSAOHmhZIfs=
+			NJrFPWRbApn7ULRBTP3K/FtMp08=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYaLGE1Iqd48WjEU+KIjWID54Vmk4JqK1CkLyhxkAtY=
+			tr9ySNn6YCxEAEet/AfgoGI0zLh2gT3NBoUX0EsoVEQ=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TVjTxvRr+lbOfBK8D4Irn0MQJN8=
+			fdMj/Hd3WYGjctNu8m0WMWJhqAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			E/0oxRyVC/fszaxxfOfB0/0qIjottOjB/99Bdv3v0W4=
+			2/54kKI8/LMw0ylTW01l2B5bFul0HCjdHR3ZvcbvCxs=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/NewCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SzjIRPmVUIoWJHDu+mPjKFW9pLQ=
+			fPu1YFBmsZ7sje5g+jKHc6jhJEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eDe/CWg9OLP+XElw/qqKv2NvnOIRbCR1wc+0Qey7qRM=
+			IF17KaB5WomWO+mxosdN2JRR3B8S/D6VeeoXv6gOZWE=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/Ottu</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JjEoyYF1Ybo5s40lPQdw8JX3sZU=
+			rbCio+vbfig4WLCp26HX2rhzLQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9mQNXjaFpJuXpFZ6gNVhy1cvroOp+K4yE5VZIuiti+o=
+			NyEtsiCTIRixNs2u5nGmAG55GejTEJS9l7BB2R3hhzQ=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/PaymentVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I8ChM3pP6o8RUftvxRu86VwpxCk=
+			5iDJAlOFf+KjsJhaUTxDjrZdLzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wm0YXH//xxIEB9FU5ZDzs0oXFqknUdLY+eplMgMhTcw=
+			g9blC+RDd/feBj35gtcrXTssrpX5nNB9t60w1zpqQb8=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/SF-Pro-Text-Bold.otf</key>
@@ -795,44 +807,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aewcwzInCYVpdQizEMXq3/R2qYg=
+			HpWzOP/Fn+3VrIftZeuJzeYTH5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			1c43Z5U3HKXodVvgopiJAN+3j4lYHxoR0nM8KOqxmIU=
+			UYUlUiz3tmzc6HF95ThlL1yN04hjEC2Mp3ZwyXnesxs=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/STCPayVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+			AF9hf6Cds8BtcSVgp5ARCc67Rak=
 			</data>
 			<key>hash2</key>
 			<data>
-			9UchmwckWaZI3VRoDOxBKcPnShTHF0j2gqhl9+qKC2Y=
+			a7Lw5JbdpRNjLhNKA2wT9is1kkNL7fyBNt7varvPFyw=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/WebView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GphOk1lED0ohucNxezV+gwkoRuQ=
+			vHPmwx11Or8AM/dfdtkCwkUXbnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFyeeL9T1KwDNr+kVMqqXAb/F+3+PBV+snqQZfkTAEo=
+			VAno/mZGuegefNb+mCUDUDYpP6QU+ULefhBS1aUsBQY=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/WebViewWithSocket.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+kFYYN2sE8YrHQfjQoTgTFb4+9k=
+			/fwSEiXvmvJys6Ajrrq7lZH4dMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ROfa2GAS2BLPxYiYEMMhmxmzeoSh55FzB2ytlkX3Am0=
+			MCiIitioQGIOT0iwDBVMHsb/HFCFeEZb/pzIkEtB1lY=
 			</data>
 		</dict>
 		<key>ios-arm64/Ottu.framework/amex.png</key>
@@ -1173,22 +1185,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aaWujL5gfK8nj6HY5nnwQidlmfg=
+			D0dyAh56b1Ey0WXyCon8F/8GsEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yAJdNgrB4lvYYR/Sr4A3pz/J0W2R6xipdhofwwMe6Kk=
+			yIWrvdEdLa6rzMOe+8EjxFskyK+U+fl8fr3AXa5DFCk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/aarch64/Ottu.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QK8QbizpNkaRGQTlduQHBnegniQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			B52Kmi3cyaTiy3QUpx+LLFENo76QSRU86HB/FoKO2LE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/ApplePayVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+			AF9hf6Cds8BtcSVgp5ARCc67Rak=
 			</data>
 			<key>hash2</key>
 			<data>
-			9UchmwckWaZI3VRoDOxBKcPnShTHF0j2gqhl9+qKC2Y=
+			a7Lw5JbdpRNjLhNKA2wT9is1kkNL7fyBNt7varvPFyw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Apple_Pay_logo.png</key>
@@ -1206,44 +1229,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			famJb/wgSwmb8S14uWe5+6m6gRk=
+			IIaScT62Ewp4uYPDbX6PDnKVSHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TqQSuV3ecLzLFcY72y0++RjEzruEZvPYuUmIUsS0jZ0=
+			8Yncla0xHZZA042Sy8pIcQUQTyOaRlFf2b16DbwuRb4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/CustomPopupVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sMb9+ub7Zc12VkkqhQuafNQkJjI=
+			yEbmpwG7ltI8HPebUYKFTLCRy4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			1rwVrOAz26ZdQtZzBFPgzFGHzKK4rvml9RN4ljf2Fgg=
+			7NYr/tXIdbhdktcPoZggrzjmHaRTwsKQ+D6Sb6cWRDc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/DeletePopupVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EnHZkIbM/LaIUftISvLsRQP1ImY=
+			NpPBEArN8OMaBAEN1VzovZy4580=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8+GvNzSwdODeM+v+cQ2oNygkUzb79t5/O8ZYRN+1Bk=
+			YyTAHETka45mlU3Ly2xvKOhG+poYnrFzpru8etq7D3A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Headers/Ottu-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FMnjfwr3MjpLSI1kG8/FpSDn8DU=
+			UbDxFTuhEcAbcI0dC04Vil9z+7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			l1kIvNqMed3qVLazk/6/ETMlUfqge7XgXTopSOcHSys=
+			OnnIz+z/hHSYZA8ROkzv9RQqCwPO8CaA+S/1nm2WMLg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Headers/Ottu.h</key>
@@ -1261,11 +1284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xP6hdHCmU6FJeLOoqBFYbXKIfnI=
+			aLE44n/jkX3G86VysfEUeg40SnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			+jM7QEFcJZhUxYPYsNNIoP5f+U+FkfEc8sWy8/KbkR4=
+			Ym+2dP142bW4jkHbiidxC7BFFkKYDNISIlAQ9Rfh4NE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Mada.png</key>
@@ -1294,176 +1317,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGb1ElKAKpfmSeJZlPL+3fdikyo=
+			7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ZbtA3WpObYZGDrgMF5/aCuC50GhzwNEN9LRU0PcpuI=
+			H3KBsXl4nwNmhZDmE1qXhfdkZbA0Ac3mZxAbmiZXAhE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/PMDU8UWd471l4NRvpxA5DJ4GA=
+			qAVUbqmfr3F/eqhEP7upg9ShQ1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			RTAkuPDmuwim0o1QGsM93ws19+5Hq2dNTanaqkdPCFs=
+			FBD+iV6Y1gTmCrXNWVk5GA7SZ2fQ83GrQxTxKaNxTeg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0a4BXoM4LUtM0QEzhZt3CEPJTNk=
+			QPtwbgMZtLGxehWuP0bKR1iqhAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vd5IAh2ns2t4Wy45RRghF7Y0qVsF+243KfuyfT3tjPE=
+			D2cuDQ25qi9gEB0ilUb6WyOmjU4e5g1NcJJBcaejciQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P0HLumeGoSoth5Cdu02IcGXdKps=
+			Irk8WQP8ao4CndQVphjaEgZsVjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			f+widv7nAjU5uhoQMR5PeTPsNAXpePx/lRRQ36/pdPw=
+			+wgvX9cnBc2cNgxo1zuiAsjdbvAGGfjTxGGXqoKgUDI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/PMDU8UWd471l4NRvpxA5DJ4GA=
+			qAVUbqmfr3F/eqhEP7upg9ShQ1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			RTAkuPDmuwim0o1QGsM93ws19+5Hq2dNTanaqkdPCFs=
+			FBD+iV6Y1gTmCrXNWVk5GA7SZ2fQ83GrQxTxKaNxTeg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/arm64-apple-ios-simulator.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0a4BXoM4LUtM0QEzhZt3CEPJTNk=
+			QPtwbgMZtLGxehWuP0bKR1iqhAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vd5IAh2ns2t4Wy45RRghF7Y0qVsF+243KfuyfT3tjPE=
+			D2cuDQ25qi9gEB0ilUb6WyOmjU4e5g1NcJJBcaejciQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uGb1ElKAKpfmSeJZlPL+3fdikyo=
+			7EZC6EvL6aj3c8zJgd4sYBh6XIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ZbtA3WpObYZGDrgMF5/aCuC50GhzwNEN9LRU0PcpuI=
+			H3KBsXl4nwNmhZDmE1qXhfdkZbA0Ac3mZxAbmiZXAhE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2tyjdYYEyxDWJLyuxRhbfMODKlE=
+			qRTO7eFzTHTlSv1IZJSIEo9pPEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ozpn/06m+pxRJ+w2p/GjKYVOrPLmboZzpzu9IvkBpWE=
+			UeAxVZfVlISvGGg22IMP64Vp6bifoOjyXsl48KCEMH8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BaoKkYqDAC6JYC0rSrzbEjT+sLQ=
+			sSjZmZBh/pfKG7ctkKEX1ZqNaeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oyWWrsafI+622gWjgOvTf40wjPuOd80xhDNIuteBhqM=
+			suFDNasTIRGTawk8xmgKhe4SsLd4ryXllTV3A03CGnU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qvPqgkKc4crXiSKK32T60xk2w7U=
+			Lgzl/sXep9/09g8Mho2ewWm2vPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Nl6cVP49XQN5aqT7PUBK5ycnmc27B/O9QvEsL5MFlw=
+			5+Ynp2HZg3q+IhFPae1CJcfx4hrO0SkL02ZciOxIk84=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2tyjdYYEyxDWJLyuxRhbfMODKlE=
+			qRTO7eFzTHTlSv1IZJSIEo9pPEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ozpn/06m+pxRJ+w2p/GjKYVOrPLmboZzpzu9IvkBpWE=
+			UeAxVZfVlISvGGg22IMP64Vp6bifoOjyXsl48KCEMH8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/Ottu.swiftmodule/x86_64-apple-ios-simulator.swiftinterface-e</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BaoKkYqDAC6JYC0rSrzbEjT+sLQ=
+			sSjZmZBh/pfKG7ctkKEX1ZqNaeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oyWWrsafI+622gWjgOvTf40wjPuOd80xhDNIuteBhqM=
+			suFDNasTIRGTawk8xmgKhe4SsLd4ryXllTV3A03CGnU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TVjTxvRr+lbOfBK8D4Irn0MQJN8=
+			fdMj/Hd3WYGjctNu8m0WMWJhqAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			E/0oxRyVC/fszaxxfOfB0/0qIjottOjB/99Bdv3v0W4=
+			2/54kKI8/LMw0ylTW01l2B5bFul0HCjdHR3ZvcbvCxs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/NewCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SzjIRPmVUIoWJHDu+mPjKFW9pLQ=
+			fPu1YFBmsZ7sje5g+jKHc6jhJEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eDe/CWg9OLP+XElw/qqKv2NvnOIRbCR1wc+0Qey7qRM=
+			IF17KaB5WomWO+mxosdN2JRR3B8S/D6VeeoXv6gOZWE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/Ottu</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T8XXXr8jFbeBGWIBtXvbuqhIsgs=
+			Cfth6KKELjjNCMx0c92EZQjCzcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			mqGkG6l/sK2u4HDV7w7e0pT6/GTfAAx0wYThLpipzIc=
+			J1rMDwfMX1F5LLUs3khYahiGlg+cSq0+SVd4H+Ud9h0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/PaymentVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I8ChM3pP6o8RUftvxRu86VwpxCk=
+			5iDJAlOFf+KjsJhaUTxDjrZdLzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wm0YXH//xxIEB9FU5ZDzs0oXFqknUdLY+eplMgMhTcw=
+			g9blC+RDd/feBj35gtcrXTssrpX5nNB9t60w1zpqQb8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/SF-Pro-Text-Bold.otf</key>
@@ -1514,55 +1537,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aewcwzInCYVpdQizEMXq3/R2qYg=
+			HpWzOP/Fn+3VrIftZeuJzeYTH5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			1c43Z5U3HKXodVvgopiJAN+3j4lYHxoR0nM8KOqxmIU=
+			UYUlUiz3tmzc6HF95ThlL1yN04hjEC2Mp3ZwyXnesxs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/STCPayVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6XL+S9U5SqG4QHuRqzYa4HuZbOE=
+			AF9hf6Cds8BtcSVgp5ARCc67Rak=
 			</data>
 			<key>hash2</key>
 			<data>
-			9UchmwckWaZI3VRoDOxBKcPnShTHF0j2gqhl9+qKC2Y=
+			a7Lw5JbdpRNjLhNKA2wT9is1kkNL7fyBNt7varvPFyw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/WebView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GphOk1lED0ohucNxezV+gwkoRuQ=
+			vHPmwx11Or8AM/dfdtkCwkUXbnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFyeeL9T1KwDNr+kVMqqXAb/F+3+PBV+snqQZfkTAEo=
+			VAno/mZGuegefNb+mCUDUDYpP6QU+ULefhBS1aUsBQY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/WebViewWithSocket.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+kFYYN2sE8YrHQfjQoTgTFb4+9k=
+			/fwSEiXvmvJys6Ajrrq7lZH4dMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ROfa2GAS2BLPxYiYEMMhmxmzeoSh55FzB2ytlkX3Am0=
+			MCiIitioQGIOT0iwDBVMHsb/HFCFeEZb/pzIkEtB1lY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5T7mj/f6h8/yfVGjUA0lqwXwA/4=
+			L2ssmMcXykgWXqFBdKfZ2Otvqe4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UfNZObptepwFC7WB5XVB/mf0aO75a5NY0dL4SD/ax1c=
+			Q2xOaCiKkwOjaILxhM+P0LoI8zSwc/KAn6KpGNkbOeI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Ottu.framework/amex.png</key>
@@ -1903,11 +1926,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SvUUCh+KfRgXLsvK/pLcsh3EDdc=
+			HJ7fhGRCgwH5LPZvhW6CEZiCjTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PSzbWlPfy7USVUIFxyp2ODaLHyDhzo3Q1ps6rO/B2Ds=
+			Kq9dhEwwgPrZVnvi2FNNgMsuabjHujzt+Ok9OySnYqY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/aarch64/Ottu.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NqOHaHyYLDPPe/ixB1wcq1t42z0=
+			</data>
+			<key>hash2</key>
+			<data>
+			IQ+ZtXgnbKntLlMCEZM1o2VJKMDEEJNXGg3L1uthjpE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/Ottu.framework.dSYM/Contents/Resources/Relocations/x86_64/Ottu.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sS/kTqcWUhzz7hqOnDkFFZK47JE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ti1vwa8H6xVQ90sQTQAArelyvzEWHWeYcNKKE0MZSTQ=
 			</data>
 		</dict>
 	</dict>
